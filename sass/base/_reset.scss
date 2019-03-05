@@ -1,0 +1,36 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size:62.5%;
+}
+
+body 
+{
+    color: $color;
+    font-family: $main-font , sans-serif;
+    font-weight: 400;
+    font-size:1.6rem;
+    letter-spacing: 0.3px;
+    line-height: 1.7em;
+}
+
+a:focus,
+a:hover
+{
+    outline: none;
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+button{
+    outline: none;
+}

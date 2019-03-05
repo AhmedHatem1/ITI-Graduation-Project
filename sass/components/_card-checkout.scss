@@ -1,0 +1,72 @@
+.ckeck-card
+{
+    
+    height: auto;
+    padding: 1rem;
+    border: 1px solid  rgb(224, 221, 221);
+    &__sub-total , &__total
+    {
+        font-size: 2rem;
+        font-weight: 800;
+        color: $color-secondary;
+        text-align: center;
+    }
+    .total__price
+    {
+        color: $color-primary;
+    }
+
+}
+.detail-card
+{
+    width: 97%;
+    margin: auto;
+    height: 10rem;
+    border: 1px solid rgb(224, 221, 221);
+    padding-bottom: 2rem;
+    &__img-container
+    {
+        width: 30%;
+        height: 90%;
+        margin : 1rem;
+        float: left;
+        &__img
+        {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    &__product-count 
+    {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: $color;
+        padding-top: 1rem;
+
+        font-family: 'Times New Roman', Times, serif;
+    }
+    &__product-size
+    {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: $color;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    &__product-name
+    {
+        color: $color-secondary;
+        margin: 0;
+        margin-bottom: 1rem;
+        padding-top: .5rem;
+    }
+    &__product-price
+    {
+        color: $color-primary;
+        font-size: 1.9rem;
+        font-weight: 600;
+        float: right;
+        padding-right: 2%;
+       
+    }
+    
+}   

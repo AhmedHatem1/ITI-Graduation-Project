@@ -1,0 +1,39 @@
+.social
+{
+    & a
+    {
+        border: none;
+    }
+    &__facebook
+    {
+        background-color: $facebook; 
+    }
+    &__facebook:hover
+    {
+        background-color: darken($facebook,10%); 
+    }
+    &__twitter
+    {
+        background-color: $twitter; 
+    }
+    &__twitter:hover
+    {
+        background-color: darken($twitter,10%); 
+    }
+    &__linkedin
+    {
+        background-color: $linkedin; 
+    }
+    &__linkedin:hover
+    {
+        background-color: darken($linkedin,10%); 
+    }
+    &__google
+    {
+        background-color: $google; 
+    }
+    &__google:hover
+    {
+        background-color: darken($google,10%); 
+    }
+}
