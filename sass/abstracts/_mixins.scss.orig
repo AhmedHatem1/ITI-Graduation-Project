@@ -30,14 +30,3 @@
   	display: -o-flex;     
   	display: flex;             
 }
-
-@mixin titleStyle {
-    font-size: 4.5rem;
-    line-height: 1.15;
-    margin-bottom: 4rem;
-}
-
-
-@mixin transition($args...) {
-    transition: $args;
-  }

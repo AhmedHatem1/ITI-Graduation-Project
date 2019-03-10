@@ -21,9 +21,6 @@
             right: 3rem;
         }
     
-        &__title{
-           @include titleStyle;
-        }
         &__description{
     
              &__point{

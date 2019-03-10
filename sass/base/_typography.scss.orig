@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lato:400,700|PT+Sans+Narrow:400,700');
-a {    
-    @include transition(0.3s);
-    color: #212324;
-}
+// a {    
+//     @include transition(0.3s);
+//     color: #212324;
+// }
 
-a:hover {
-    color: $color-primary;
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+// img {
+//     max-width: 100%;
+//     height: auto;
+// }
 
 h1,
 h2,
@@ -22,7 +19,4 @@ h6 {
     margin: 0 0 15px;
     font-family: $head-font , sans-serif;
     font-weight: 700;
-}
-a:hover {
-    text-decoration: none
 }

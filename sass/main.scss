@@ -8,13 +8,17 @@
 @import 'base/typography';
 @import 'base/helpers';
 
-@import 'components/buttons';
+@import 'components/about';
+@import 'components/addproductform';
+@import 'components/button';
 @import 'components/forms';
 @import 'components/cards';
 @import 'components/carousel';
 @import 'components/breadcrumb';
 @import 'components/comments';
+@import 'components/feature-card';
 @import 'components/feature';
+@import 'components/featured-resturant';
 @import 'components/image';
 @import 'components/category-slider';
 @import 'components/checkboxes';
@@ -27,7 +31,10 @@
 @import 'components/pricing';
 @import 'components/radiobuttons';
 @import 'components/rating';
+@import 'components/restaurant-card';
+@import 'components/restaurantitem.scss';
 @import 'components/search-box';
+@import 'components/sidebar';
 @import 'components/social';
 @import 'components/tabs';
 @import 'components/tags';
@@ -40,6 +47,7 @@
 @import 'components/addproductform';
 @import 'components/contact';
 
+@import 'layout/bootstrap';
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/navigation';

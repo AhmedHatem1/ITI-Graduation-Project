@@ -13,17 +13,7 @@
          a{
              margin-left:  1rem;
          }
-      &--right{ 
-        font-size: 2.5rem;
-        padding:1rem 2rem;
-      }
-      &--left{
-       font-size: 2rem;
-       padding-left: .2rem;
-       display: inline-block;
-      }
     }
-
     &__item{
 
         img{

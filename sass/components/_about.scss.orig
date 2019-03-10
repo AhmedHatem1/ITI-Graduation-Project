@@ -2,10 +2,7 @@
 //start about style
 .about{
     
-    &__title{
-        @include titleStyle;
-    }
-
+    
     &__details{
         font-family: $main-font;
         line-height: 2;
