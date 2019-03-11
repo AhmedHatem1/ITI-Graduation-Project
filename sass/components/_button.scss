@@ -13,41 +13,41 @@
 
 
 
-    &.--oval {
+    &.btn--oval {
         border-radius: 25px;
         padding: .6rem;
         padding-left: 1.4rem;
         padding-right: 1.4rem;
     }
 
-    &.--rectangle {
+    &.btn--rectangle {
         border-radius: 0px;
         // padding: 0.5rem;
         color: black;
         background-color: white;
         width: auto;
 
-        &.__left {
+        &.btn__left {
             border-bottom-left-radius: 4px;
             border-top-left-radius: 4px;
 
         }
 
-        &.__right {
+        &.btn__right {
             border-bottom-right-radius: 4px;
             border-top-right-radius: 4px;
         }
 
-        &.__center {
+        &.btn__center {
             border-radius: 0px;
         }
     }
 
-    &.--dark {
+    &.btn--dark {
         color: #bdbdbd;
         border-color: black;
 
-        &.--solid {
+        &.btn--solid {
             color: #bdbdbd;
             background-color: black;
         }
@@ -59,7 +59,7 @@
         }
     }
 
-    &.--rounded {
+    &.btn--rounded {
         //years month days
         border-radius: 50%;
         // padding: 0.6rem 1rem 0.6rem 1rem;
@@ -73,7 +73,7 @@
         // }
     }
 
-    &.--square {
+    &.btn--square {
         // width: 30px;
         // height: 30px;
         border-radius: 4px;
@@ -89,19 +89,19 @@
         }
     }
 
-    &.--smooth {
+    &.btn--smooth {
         border-radius: 0.4rem;
     }
 
-    &.--transparent {
+    &.btn--transparent {
         background-color: transparent;
     }
 
-    &.--white{
+    &.btn--white{
         color: black;
         border-color: white;
 
-        &.--solid {
+        &.btn--solid {
             color: black;
             background-color: white;
         }
@@ -112,11 +112,11 @@
             border: 1px solid #eee;
         }
     }
-    &.--green {
+    &.btn--green {
         color: #ffc107;
         border-color: #ffc107;
 
-        &.--solid {
+        &.btn--solid {
             color: white;
             background-color: #ffc107;
         }
@@ -128,11 +128,11 @@
         }
     }
 
-    &.--gray {
+    &.btn--gray {
         color: #6c757d;
         border-color: #6c757d;
 
-        &.--solid {
+        &.btn--solid {
             color: white;
             background-color: #6c757d;
         }
@@ -144,11 +144,11 @@
         }
     }
 
-    &.--blue {
+    &.btn--blue {
         color: #007bff;
         border-color: #007bff;
 
-        &.--solid {
+        &.btn--solid {
             color: white;
             background-color: #007bff;
         }
@@ -160,11 +160,11 @@
         }
     }
 
-    &.--red {
+    &.btn--red {
         color: red;
         border-color: red;
 
-        &.--solid {
+        &.btn--solid {
             color: white;
             background-color: red;
         }
@@ -176,11 +176,11 @@
         }
     }
 
-    &.--dark-red {
+    &.btn--dark-red {
         color: #C82333;
         border-color: #C82333;
 
-        &.--solid {
+        &.btn--solid {
             color: white;
             background-color: #C82333;
         }
@@ -192,11 +192,11 @@
         }
     }
 
-    &.--dark-green {
+    &.btn--dark-green {
         color: #23B684;
         border-color: #23B684;
 
-        &.--solid {
+        &.btn--solid {
             color: white;
             background-color: #23B684;
         }
@@ -208,20 +208,20 @@
         }
     }
 
-    &.--meduim{
+    &.btn--meduim{
         font-size: 2.4rem;
         font-weight: 700;
     }
-    &.--small {
+    &.btn--small {
         font-size: 2rem;
         font-weight: 700;
     }
-    &.--x-small{
+    &.btn--x-small{
         font-size: 1.3rem;
         font-weight: 700;
     }
 
-    &.--long {
+    &.btn--long {
         font-size: 1.4rem;
         font-weight: 600;
         padding-left: 7rem;
@@ -238,7 +238,7 @@
         padding: 15px 0px 15px 0px;
     }
 
-    &.--disabled {
+    &.btn--disabled {
         background-color: transparent;
         border-color: #585a63;
         color: #585a63;
