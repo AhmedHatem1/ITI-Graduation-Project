@@ -215,132 +215,132 @@ a:hover {
   border: 1px solid transparent;
   outline: none;
   text-align: center; }
-  .btn.--oval {
+  .btn.btn--oval {
     border-radius: 25px;
     padding: .6rem;
     padding-left: 1.4rem;
     padding-right: 1.4rem; }
-  .btn.--rectangle {
+  .btn.btn--rectangle {
     border-radius: 0px;
     color: black;
     background-color: white;
     width: auto; }
-    .btn.--rectangle.__left {
+    .btn.btn--rectangle.btn__left {
       border-bottom-left-radius: 4px;
       border-top-left-radius: 4px; }
-    .btn.--rectangle.__right {
+    .btn.btn--rectangle.btn__right {
       border-bottom-right-radius: 4px;
       border-top-right-radius: 4px; }
-    .btn.--rectangle.__center {
+    .btn.btn--rectangle.btn__center {
       border-radius: 0px; }
-  .btn.--dark {
+  .btn.btn--dark {
     color: #bdbdbd;
     border-color: black; }
-    .btn.--dark.--solid {
+    .btn.btn--dark.btn--solid {
       color: #bdbdbd;
       background-color: black; }
-    .btn.--dark:hover {
+    .btn.btn--dark:hover {
       color: white;
       background-color: #444;
       border: 1px solid #444; }
-  .btn.--rounded {
+  .btn.btn--rounded {
     border-radius: 50%;
     color: white;
     background-color: #f4f7f6;
     width: auto; }
-  .btn.--square {
+  .btn.btn--square {
     border-radius: 4px;
     width: auto; }
-    .btn.--square.small {
+    .btn.btn--square.small {
       padding: 0rem 1rem 0rem 1rem; }
-    .btn.--square.meduim {
+    .btn.btn--square.meduim {
       padding: 0.4rem 0.4rem 0.4rem 0.4rem; }
-    .btn.--square.big {
+    .btn.btn--square.big {
       padding: 1rem 1rem 1rem 1rem; }
-  .btn.--smooth {
+  .btn.btn--smooth {
     border-radius: 0.4rem; }
-  .btn.--transparent {
+  .btn.btn--transparent {
     background-color: transparent; }
-  .btn.--white {
+  .btn.btn--white {
     color: black;
     border-color: white; }
-    .btn.--white.--solid {
+    .btn.btn--white.btn--solid {
       color: black;
       background-color: white; }
-    .btn.--white:hover {
+    .btn.btn--white:hover {
       color: brown;
       background-color: #eee;
       border: 1px solid #eee; }
-  .btn.--green {
+  .btn.btn--green {
     color: #ffc107;
     border-color: #ffc107; }
-    .btn.--green.--solid {
+    .btn.btn--green.btn--solid {
       color: white;
       background-color: #ffc107; }
-    .btn.--green:hover {
+    .btn.btn--green:hover {
       color: white;
       background-color: #e0a800;
       border: 1px solid #e0a800; }
-  .btn.--gray {
+  .btn.btn--gray {
     color: #6c757d;
     border-color: #6c757d; }
-    .btn.--gray.--solid {
+    .btn.btn--gray.btn--solid {
       color: white;
       background-color: #6c757d; }
-    .btn.--gray:hover {
+    .btn.btn--gray:hover {
       color: white;
       border: 1px solid #585a63;
       background-color: #585a63; }
-  .btn.--blue {
+  .btn.btn--blue {
     color: #007bff;
     border-color: #007bff; }
-    .btn.--blue.--solid {
+    .btn.btn--blue.btn--solid {
       color: white;
       background-color: #007bff; }
-    .btn.--blue:hover {
+    .btn.btn--blue:hover {
       color: white;
       background-color: #0069d9;
       border: 1px solid #0069d9; }
-  .btn.--red {
+  .btn.btn--red {
     color: red;
     border-color: red; }
-    .btn.--red.--solid {
+    .btn.btn--red.btn--solid {
       color: white;
       background-color: red; }
-    .btn.--red:hover {
+    .btn.btn--red:hover {
       color: white;
       background-color: darkred;
       border: 1px solid darkred; }
-  .btn.--dark-red {
+  .btn.btn--dark-red {
     color: #C82333;
     border-color: #C82333; }
-    .btn.--dark-red.--solid {
+    .btn.btn--dark-red.btn--solid {
       color: white;
       background-color: #C82333; }
-    .btn.--dark-red:hover {
+    .btn.btn--dark-red:hover {
       color: white;
       background-color: red;
       border: 1px solid red; }
-  .btn.--dark-green {
+  .btn.btn--dark-green {
     color: #23B684;
     border-color: #23B684; }
-    .btn.--dark-green.--solid {
+    .btn.btn--dark-green.btn--solid {
       color: white;
       background-color: #23B684; }
-    .btn.--dark-green:hover {
+    .btn.btn--dark-green:hover {
       color: white;
       background-color: #ffb900;
       border: 1px solid #ffb900; }
-  .btn.--meduim {
+  .btn.btn--meduim {
     font-size: 2.4rem;
     font-weight: 700; }
-  .btn.--small {
+  .btn.btn--small {
     font-size: 2rem;
     font-weight: 700; }
-  .btn.--x-small {
+  .btn.btn--x-small {
     font-size: 1.3rem;
     font-weight: 700; }
-  .btn.--long {
+  .btn.btn--long {
     font-size: 1.4rem;
     font-weight: 600;
     padding-left: 7rem;
@@ -349,11 +349,11 @@ a:hover {
     display: flex;
     flex-direction: row;
     padding: 15px 0px 15px 0px; }
-  .btn.--disabled {
+  .btn.btn--disabled {
     background-color: transparent;
     border-color: #585a63;
     color: #585a63; }
-    .btn.--disabled:hover {
+    .btn.btn--disabled:hover {
       color: #585a63;
       background-color: transparent;
       border-color: #585a63; }
