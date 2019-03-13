@@ -1,4 +1,4 @@
-.btn {
+.Btn {
     // height: 3rem;
     font-weight: 400;
     // width: 20px;
@@ -13,41 +13,41 @@
 
 
 
-    &.btn--oval {
+    &.Btn--oval {
         border-radius: 25px;
         padding: .6rem;
         padding-left: 1.4rem;
         padding-right: 1.4rem;
     }
 
-    &.btn--rectangle {
+    &.Btn--rectangle {
         border-radius: 0px;
         // padding: 0.5rem;
         color: black;
         background-color: white;
         width: auto;
 
-        &.btn__left {
+        &.Btn__left {
             border-bottom-left-radius: 4px;
             border-top-left-radius: 4px;
 
         }
 
-        &.btn__right {
+        &.Btn__right {
             border-bottom-right-radius: 4px;
             border-top-right-radius: 4px;
         }
 
-        &.btn__center {
+        &.Btn__center {
             border-radius: 0px;
         }
     }
 
-    &.btn--dark {
+    &.Btn--dark {
         color: #bdbdbd;
         border-color: black;
 
-        &.btn--solid {
+        &.Btn--solid {
             color: #bdbdbd;
             background-color: black;
         }
@@ -59,7 +59,7 @@
         }
     }
 
-    &.btn--rounded {
+    &.Btn--rounded {
         //years month days
         border-radius: 50%;
         // padding: 0.6rem 1rem 0.6rem 1rem;
@@ -73,7 +73,7 @@
         // }
     }
 
-    &.btn--square {
+    &.Btn--square {
         // width: 30px;
         // height: 30px;
         border-radius: 4px;
@@ -89,19 +89,19 @@
         }
     }
 
-    &.btn--smooth {
+    &.Btn--smooth {
         border-radius: 0.4rem;
     }
 
-    &.btn--transparent {
+    &.Btn--transparent {
         background-color: transparent;
     }
 
-    &.btn--white{
+    &.Btn--white{
         color: black;
         border-color: white;
 
-        &.btn--solid {
+        &.Btn--solid {
             color: black;
             background-color: white;
         }
@@ -112,11 +112,11 @@
             border: 1px solid #eee;
         }
     }
-    &.btn--green {
+    &.Btn--green {
         color: #ffc107;
         border-color: #ffc107;
 
-        &.btn--solid {
+        &.Btn--solid {
             color: white;
             background-color: #ffc107;
         }
@@ -128,11 +128,11 @@
         }
     }
 
-    &.btn--gray {
+    &.Btn--gray {
         color: #6c757d;
         border-color: #6c757d;
 
-        &.btn--solid {
+        &.Btn--solid {
             color: white;
             background-color: #6c757d;
         }
@@ -144,11 +144,11 @@
         }
     }
 
-    &.btn--blue {
+    &.Btn--blue {
         color: #007bff;
         border-color: #007bff;
 
-        &.btn--solid {
+        &.Btn--solid {
             color: white;
             background-color: #007bff;
         }
@@ -160,11 +160,11 @@
         }
     }
 
-    &.btn--red {
+    &.Btn--red {
         color: red;
         border-color: red;
 
-        &.btn--solid {
+        &.Btn--solid {
             color: white;
             background-color: red;
         }
@@ -176,11 +176,11 @@
         }
     }
 
-    &.btn--dark-red {
+    &.Btn--dark-red {
         color: #C82333;
         border-color: #C82333;
 
-        &.btn--solid {
+        &.Btn--solid {
             color: white;
             background-color: #C82333;
         }
@@ -192,11 +192,11 @@
         }
     }
 
-    &.btn--dark-green {
+    &.Btn--dark-green {
         color: #23B684;
         border-color: #23B684;
 
-        &.btn--solid {
+        &.Btn--solid {
             color: white;
             background-color: #23B684;
         }
@@ -208,20 +208,20 @@
         }
     }
 
-    &.btn--meduim{
+    &.Btn--meduim{
         font-size: 2.4rem;
         font-weight: 700;
     }
-    &.btn--small {
+    &.Btn--small {
         font-size: 2rem;
         font-weight: 700;
     }
-    &.btn--x-small{
+    &.Btn--x-small{
         font-size: 1.3rem;
         font-weight: 700;
     }
 
-    &.btn--long {
+    &.Btn--long {
         font-size: 1.4rem;
         font-weight: 600;
         padding-left: 7rem;
@@ -232,13 +232,13 @@
 
 
     &-group {
-        //TODO: stick btns with each other
+        //TODO: stick Btns with each other
         display: flex;
         flex-direction: row;
         padding: 15px 0px 15px 0px;
     }
 
-    &.btn--disabled {
+    &.Btn--disabled {
         background-color: transparent;
         border-color: #585a63;
         color: #585a63;
