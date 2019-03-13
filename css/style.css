@@ -1269,11 +1269,26 @@ img {
     margin: 0 auto; }
 
 /*end contact*/
-.row {
-  margin-top: 11rem; }
+.Table > tr > td {
+  padding-top: 8px;
+  border-top: 1px solid #e7e7e7; }
 
-.c-bg-dark {
-  background-color: black; }
+.Table thead > tr > th {
+  border-bottom: 1px solid #e7e7e7; }
+
+.Table thead {
+  background: #ed6571;
+  text-align: left; }
+
+.Table thead th {
+  color: #ffffff;
+  font-weight: bold; }
+
+.Table tbody {
+  background: #FFF; }
+
+.Table tbody td {
+  color: #444444; }
 
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/res1.jpeg") no-repeat center center;
@@ -1353,37 +1368,11 @@ img {
   .Dashboard__sidebar__item__link:hover {
     color: #ccc !important; }
 
-@media (min-width: 768px) {
-  [role="main"] {
-    padding-top: 48px; } }
-
 .navbar-brand {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1rem;
   color: white; }
-
-.order-list-item table tbody > tr > td {
-  padding-top: 8px;
-  border-top: 1px solid #e7e7e7; }
-
-.order-list-item table thead > tr > th {
-  border-bottom: 1px solid #e7e7e7; }
-
-.order-list-item thead {
-  background: #ff2e44;
-  text-align: left; }
-
-.order-list-item thead th {
-  color: #ffffff;
-  font-weight: bold; }
-
-.order-list-item tbody {
-  background: #ffffff;
-  text-align: left; }
-
-.order-list-item tbody td {
-  color: #444444; }
 
 .blogs {
   background-color: #212324; }
