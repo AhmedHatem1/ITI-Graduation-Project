@@ -694,6 +694,55 @@ img {
 .select select:disabled ~ .select__arrow {
   border-top-color: #ccc; }
 
+.product-details {
+  border: none;
+  width: 700px;
+  margin: auto; }
+  .product-details__img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: .4rem; }
+  .product-details__body-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #212324;
+    font-family: "PT Sans Narrow";
+    margin: 0px; }
+  .product-details__body-recp {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0px; }
+  .product-details__body-price {
+    font-size: 3rem;
+    color: #212324;
+    letter-spacing: 0;
+    font-weight: 900; }
+  .product-details__body-btns {
+    border: 1px solid #495057;
+    border-radius: 2rem;
+    width: 10rem;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+    position: relative; }
+    .product-details__body-btns button {
+      background-color: white;
+      border: none;
+      position: absolute;
+      top: 0px;
+      cursor: pointer;
+      outline: none;
+      height: 2.9rem; }
+    .product-details__body-btns .btn-left {
+      left: 10px;
+      border-right: 1px solid #495057;
+      padding-right: .8rem; }
+    .product-details__body-btns .btn-right {
+      right: 10px;
+      border-left: 1px solid #495057;
+      padding-left: .8rem; }
+    .product-details__body-btns button i:hover {
+      color: #ed6571; }
+
 .pricing__item {
   text-align: center;
   padding-top: 1rem;

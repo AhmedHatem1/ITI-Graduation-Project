@@ -1,0 +1,61 @@
+.product-details{
+    border: none;
+    width: 700px;
+    margin: auto;
+    &__img{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: .4rem;
+    }
+    &__body{
+        &-title{
+            font-size: 4rem;
+            font-weight: 800;
+            color: $color-secondary;
+            font-family: $head-font;
+            margin: 0px;
+        }
+        &-recp{
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 0px;
+        }
+        &-price{
+            font-size: 3rem;
+            color: $color-secondary;
+            letter-spacing: 0;
+            font-weight: 900;
+        }
+        &-btns{
+            border: 1px solid $color;
+            border-radius: 2rem;           
+            width: 10rem;
+            text-decoration: none;            
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+            button{
+                background-color: $white;
+                border: none;
+                position: absolute;
+                top: 0px;
+                cursor: pointer;
+                outline: none;
+                height: 2.9rem;
+            }
+            .btn-left{
+                left: 10px;
+                border-right: 1px solid $color;
+                padding-right: .8rem;
+            }
+            .btn-right{
+                right: 10px;
+                border-left: 1px solid $color;
+                padding-left: .8rem;
+            }
+            & button i:hover{              
+                    color: $color-primary;
+                
+            }
+        }
+    }
+}
