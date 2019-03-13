@@ -2,9 +2,7 @@
 {
   background-color: $dashboard-main-color;
   color : $white ;
-}
-
-.Dashboard__navbar__user
+  &__user
 {
   display: inline-block;
   width:35px;
@@ -12,30 +10,18 @@
   padding: 0;
   margin: 0 5px ;
 }
-.Dashboard__navbar__user__img
+
+&__user__img
 {
   border-radius: 50%;
   max-width: 100%;
 }
-.Dashboard__sidebar__list
-{
-  padding-top:2rem 
-}
-.Dashboard__sidebar__item__link
-{
-  padding: 1rem 2rem;
-  @include transition(0.3s);
-}
-.Dashboard__sidebar__item__link:hover
-{
-  color:#ccc !important;
-}
-.Dashboard__sidebar__item__link.active
-{
-  background-color: #333 
 }
 
-.sidebar {
+
+
+.Dashboard__sidebar
+{
   position: fixed;
   top: 0;
   bottom: 0;
@@ -43,44 +29,26 @@
   z-index: 100; 
   padding: 57px 0 0; 
   background-color:  $dashboard-gray-color !important;
+  &__list
+{
+  padding-top:2rem 
 }
-
-// .sidebar-sticky {
-//   position: relative;
-//   top: 0;
-//   height: calc(100vh - 48px);
-//   padding-top: 0.5rem;
-//   overflow-x: hidden;
-//   // overflow-y: auto; 
-// }
-
-// @supports ((position: -webkit-sticky) or (position: sticky)) {
-//   .sidebar-sticky {
-//     position: -webkit-sticky;
-//     position: sticky;
-//   }
-// }
-
-.sidebar .nav-link {
+&__item__link
+{
   font-weight: 500;
   color: #333;
+  padding: 1rem 2rem;
+  @include transition(0.3s);
+}
+&__item__link:hover
+{
+  color:#ccc !important;
 }
 
 
-.sidebar .nav-link.active {
-  color: #007bff;
 }
 
 
-.sidebar-heading {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-}
-
-
-[role="main"] {
-  padding-top: 133px; 
-}
 
 @media (min-width: 768px) {
   [role="main"] {
@@ -95,4 +63,4 @@
   font-size: 1rem;
   color: $white;
  
-}
+ }

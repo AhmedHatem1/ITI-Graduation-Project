@@ -1325,32 +1325,17 @@ img {
 .Dashboard__navbar {
   background-color: #3498db;
   color: white; }
+  .Dashboard__navbar__user {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0 5px; }
+  .Dashboard__navbar__user__img {
+    border-radius: 50%;
+    max-width: 100%; }
 
-.Dashboard__navbar__user {
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  padding: 0;
-  margin: 0 5px; }
-
-.Dashboard__navbar__user__img {
-  border-radius: 50%;
-  max-width: 100%; }
-
-.Dashboard__sidebar__list {
-  padding-top: 2rem; }
-
-.Dashboard__sidebar__item__link {
-  padding: 1rem 2rem;
-  transition: 0.3s; }
-
-.Dashboard__sidebar__item__link:hover {
-  color: #ccc !important; }
-
-.Dashboard__sidebar__item__link.active {
-  background-color: #333; }
-
-.sidebar {
+.Dashboard__sidebar {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -1358,20 +1343,15 @@ img {
   z-index: 100;
   padding: 57px 0 0;
   background-color: #18191b !important; }
-
-.sidebar .nav-link {
-  font-weight: 500;
-  color: #333; }
-
-.sidebar .nav-link.active {
-  color: #007bff; }
-
-.sidebar-heading {
-  font-size: 0.75rem;
-  text-transform: uppercase; }
-
-[role="main"] {
-  padding-top: 133px; }
+  .Dashboard__sidebar__list {
+    padding-top: 2rem; }
+  .Dashboard__sidebar__item__link {
+    font-weight: 500;
+    color: #333;
+    padding: 1rem 2rem;
+    transition: 0.3s; }
+  .Dashboard__sidebar__item__link:hover {
+    color: #ccc !important; }
 
 @media (min-width: 768px) {
   [role="main"] {
