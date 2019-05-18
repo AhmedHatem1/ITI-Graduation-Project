@@ -8,46 +8,19 @@
 @import 'base/typography';
 @import 'base/helpers';
 
-@import 'components/about';
-@import 'components/addproductform';
+// Components
 @import 'components/button';
-@import 'components/forms';
-@import 'components/cards';
-@import 'components/carousel';
-@import 'components/breadcrumb';
+@import 'components/card';
 @import 'components/comments';
-@import 'components/feature-card';
-@import 'components/feature';
-@import 'components/featured-resturant';
-@import 'components/image';
-@import 'components/category-slider';
-@import 'components/checkboxes';
-@import 'components/selectbox';
-@import 'components/form-control';
-@import 'components/list';
-@import 'components/newDetailsPro';
-@import 'components/notifications';
-@import 'components/pagination';
+@import 'components/dropdown';
+@import 'components/filter_nav';
+@import 'components/form';
+@import 'components/input';
+@import 'components/orderBill';
 @import 'components/popup';
-@import 'components/pricing';
-@import 'components/radiobuttons';
-@import 'components/rating';
-@import 'components/restaurant-card';
-@import 'components/restaurantitem.scss';
-@import 'components/search-box';
-@import 'components/sidebar';
-@import 'components/social';
-@import 'components/tabs';
-@import 'components/tags';
-@import 'components/blog';
-@import 'components/testimonials';
-@import 'components/card-category';
-@import 'components/card-checkout';
-@import 'components/card-product';
-@import 'components/about';
-@import 'components/addproductform';
-@import 'components/contact';
-@import 'components/table';
+@import 'components/sideMenu';
+@import 'components/signIn';
+
 
 @import 'layout/grid';
 @import 'layout/header';
@@ -56,12 +29,7 @@
 @import 'layout/forms';
 @import 'layout/footer';
 
-@import 'pages/dashboard';
-@import 'pages/home';
-@import 'pages/single-blog';
-@import 'pages/single-meal';
-@import 'pages/client-page';
-@import 'pages/signin';
+// Pages
 
 @import 'themes/admin';
 @import 'themes/theme';

@@ -12,9 +12,9 @@ html
 body 
 {
     color: $color;
-    font-family: $main-font , sans-serif;
+    font-family: $main-font ,$head-font ,sans-serif;
     font-weight: 400;
-    font-size:1.6rem;
+    font-size:1.8rem;
     letter-spacing: 0.3px;
     line-height: 1.7em;
 }
