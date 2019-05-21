@@ -1,0 +1,28 @@
+form{
+    .separator{
+        padding-top: 2.5rem;
+    }
+}
+
+.input-group{
+    textarea{
+        min-height: 2.5rem;
+    }
+    &-prepend{
+        .input-group-text{
+            &#group-title,&#city,&#region,&#description{
+                max-width: 7rem;
+                width: 7rem;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.add{
+    &-group{
+        &.img{
+            width: 75%;
+        }
+    }
+}

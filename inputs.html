@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inputs</title>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="d-flex flex-row-reverse">
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-7 section-padding">
+                <!-- header -->
+                <h2 class="head-title">Create Group</h2>
+                <hr>
+                <!-- form -->
+                <form class="" method="post" action="">
+                    <!-- padding -->
+
+                    <!-- horizontal display -->
+                    <div class="d-flex flex-column">
+                        <!-- Name -->
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="group-title">Group Title</span>
+                            </div>
+                            <input class="form-control" type="text" placeholder="Group Title" aria-label="Recipient's "
+                                aria-describedby="my-addon">
+                        </div>
+
+                        <!-- City -->
+                        <div class="separator"></div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="city">City</span>
+                            </div>
+                            <input class="form-control" type="text" placeholder="Group's City" aria-label="Group's City"
+                                aria-describedby="City">
+                        </div>
+
+
+                        <!-- Region -->
+                        <div class="separator"></div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="region">Region</span>
+                            </div>
+
+
+                            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                            <div class="input-group-append">
+                                <!-- add class show for menu show -->
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Region1</a>
+                                    <a class="dropdown-item" href="#">Region2</a>
+                                    <a class="dropdown-item" href="#">Region3</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- Description -->
+                        <div class="separator"></div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="description">Description</span>
+                            </div>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                        
+                        <div class="separator"></div>
+                            <div class="ml-auto">        
+                                <input type="submit" value="Add" class="btn btn-primary" />
+                                <a href="#" class="btn btn-success">Back</a>
+                            </div>
+                        
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 mt-auto mb-auto ml-auto">
+                <div class="add-group img">
+                    <img src="./assets/14762094.jpg" alt="">
+                </div>
+                <input type="submit" value="Upload" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
