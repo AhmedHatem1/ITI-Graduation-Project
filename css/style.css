@@ -77,16 +77,23 @@ a:hover {
 .inputPadding--focus:focus {
   padding-left: 1.5rem; }
 
-form .separator {
+.form-separator {
   padding-top: 2.5rem; }
 
 .input-group textarea {
   min-height: 2.5rem; }
 
-.input-group-prepend .input-group-text#group-title, .input-group-prepend .input-group-text#city, .input-group-prepend .input-group-text#region, .input-group-prepend .input-group-text#description {
+.input-group-prepend .input-group-text.label {
   max-width: 7rem;
   width: 7rem;
   justify-content: center; }
+
+.tag-dropdown {
+  top: 30%;
+  left: 20%; }
+
+.form-container {
+  background-color: #F9F9F9; }
 
 .add-group.img {
   width: 75%; }

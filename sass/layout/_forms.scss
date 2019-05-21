@@ -1,7 +1,5 @@
-form{
-    .separator{
+.form-separator{
         padding-top: 2.5rem;
-    }
 }
 
 .input-group{
@@ -10,7 +8,7 @@ form{
     }
     &-prepend{
         .input-group-text{
-            &#group-title,&#city,&#region,&#description{
+            &.label{
                 max-width: 7rem;
                 width: 7rem;
                 justify-content: center;
@@ -18,7 +16,13 @@ form{
         }
     }
 }
-
+.tag-dropdown{
+    top: 30%;
+    left: 20%;
+}
+.form-container{
+    background-color:$color-gray-background1;
+}
 .add{
     &-group{
         &.img{
