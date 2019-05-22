@@ -9,6 +9,10 @@
         font-weight: bold;
         font-size: 3rem;
     }
+    &__info{
+        font-size: 1.8rem;
+        margin: 1rem 0;
+    }
     &__total{
         position: relative;
         left:6rem;
@@ -60,13 +64,15 @@
         padding: 1rem;
         position: absolute;
         left:60%;
-        transform: translateX(-50%)
+        transform: translateX(-50%);
+        font-size: 1.5rem;
     }
     &__check-subtotal{
         margin-right:1.5rem;
     }
     &__check-info{
-        position: relative
+        position: relative;
+        margin: 0.8rem 0
     }
     &__check-dash{
         width:2rem;
@@ -74,7 +80,7 @@
         background-color: rgb(216, 213, 213);
         display: inline-block;
         position: absolute;
-        top:1.8rem;
+        top:0.8rem;
         left:50%;
     }
     
@@ -85,6 +91,7 @@
     .btn{
         position: relative;
         top:1.5rem;
+        display: block
     }
 }
 .margin-bottom{

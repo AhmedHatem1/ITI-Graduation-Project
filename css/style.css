@@ -247,6 +247,9 @@ a:hover {
     margin: 3rem 0;
     font-weight: bold;
     font-size: 3rem; }
+  .order-bill__info {
+    font-size: 1.8rem;
+    margin: 1rem 0; }
   .order-bill__total {
     position: relative;
     left: 6rem;
@@ -289,25 +292,28 @@ a:hover {
     padding: 1rem;
     position: absolute;
     left: 60%;
-    transform: translateX(-50%); }
+    transform: translateX(-50%);
+    font-size: 1.5rem; }
   .order-bill__check-subtotal {
     margin-right: 1.5rem; }
   .order-bill__check-info {
-    position: relative; }
+    position: relative;
+    margin: 0.8rem 0; }
   .order-bill__check-dash {
     width: 2rem;
     height: 0.1rem;
     background-color: #d8d5d5;
     display: inline-block;
     position: absolute;
-    top: 1.8rem;
+    top: 0.8rem;
     left: 50%; }
   .order-bill__check-price {
     position: absolute;
     right: 0rem; }
   .order-bill .btn {
     position: relative;
-    top: 1.5rem; }
+    top: 1.5rem;
+    display: block; }
 
 .margin-bottom {
   margin-bottom: 2rem; }
