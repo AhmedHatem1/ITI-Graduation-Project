@@ -1,0 +1,45 @@
+.menu-card{
+   &__item{
+    background-color: $color-gray-background4;
+    padding: 2rem;
+   }
+   &__heading{
+    color:  $color-primary;
+   }
+   &__image-card{
+        margin: 0 auto 1rem;
+        width:12rem;
+        height:12rem;
+        position: relative;
+   }
+   &__size{
+
+   }
+   &__option{
+        width:1.2rem;
+        height: 1.2rem;
+        display: inline-block;
+        border-radius: 50%;
+        border:0.2rem solid $color-primary;
+   }
+   &__option{
+    
+}
+   &__image{
+        width:100%;
+        border-radius: 50%;
+   }
+   &__sale{
+       width:4.2rem;
+       height: 4.2rem;
+       background-color: $color-secondary;
+       border-radius:  50%;
+       position: absolute;
+       color:$white;
+       font-size: 1.3rem;
+       line-height: 4.2rem;
+       text-align: center;
+       left: 77%;
+       top:0rem;
+   }
+}
