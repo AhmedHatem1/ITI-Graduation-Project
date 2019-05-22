@@ -4,15 +4,17 @@
   margin: 0; }
 
 html {
-  font-size: 100%; }
+  font-size: 62.5%; }
 
 body {
   color: #495057;
   font-family: "Roboto", "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 2rem;
   letter-spacing: 0.3px;
-  line-height: 1.7rem; }
+  line-height: 1.7rem;
+  overflow-x: hidden;
+  height: 3000px; }
 
 a:focus,
 a:hover {
@@ -76,6 +78,282 @@ a:hover {
 
 .inputPadding--focus:focus {
   padding-left: 1.5rem; }
+
+.btn {
+  width: 13rem;
+  padding: 1.1rem;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: white; }
+  .btn--rounded {
+    border-radius: 1rem; }
+  .btn--rounded-small {
+    border-radius: 0.5rem; }
+  .btn--black {
+    background-color: #333; }
+    .btn--black:hover {
+      color: #FB5858; }
+  .btn--small-btn {
+    font-size: 1.3rem; }
+  .btn--small {
+    width: 10rem;
+    padding: 0.5rem 0; }
+  .btn--secondary {
+    background-color: #FB5858; }
+  .btn--primary {
+    background-color: #FFC107; }
+  .btn--border {
+    border: 0.5rem solid #FFC107; }
+  .btn--transparent {
+    background-color: transparent;
+    color: #495057;
+    width: 15rem;
+    border-radius: 2.5rem;
+    padding: 0.4rem; }
+
+.menu-card__item {
+  background-color: #F2F2F2;
+  padding: 2rem; }
+
+.menu-card__heading {
+  color: #FFC107; }
+
+.menu-card__image-card {
+  margin: 0 auto 1rem;
+  width: 12rem;
+  height: 12rem;
+  position: relative; }
+
+.menu-card__option {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+  border-radius: 50%;
+  border: 0.2rem solid #FFC107; }
+
+.menu-card__image {
+  width: 100%;
+  border-radius: 50%; }
+
+.menu-card__sale {
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: #FB5858;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 4.2rem;
+  text-align: center;
+  left: 77%;
+  top: 0rem; }
+
+/*start testimonials*/
+.testimonials {
+  background-image: url("../images/Services/testi.jpg");
+  background-size: cover;
+  padding: 5rem; }
+
+.carousel {
+  margin: 5rem auto; }
+  .carousel h2 {
+    color: #FFF;
+    font-size: 2.6rem;
+    font-weight: 300;
+    position: relative;
+    margin: 0 0 8rem 0;
+    text-transform: uppercasse;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%); }
+  .carousel h2::after {
+    content: "";
+    width: 50%;
+    position: absolute;
+    height: 0.4rem;
+    border-radius: 0.1rem;
+    background: #ff5555;
+    left: 20%;
+    bottom: -2rem; }
+  .carousel .carousel-item {
+    color: #999;
+    overflow: hidden;
+    min-height: 12rem;
+    font-size: 1.4rem; }
+  .carousel .media {
+    position: relative;
+    padding: 0 0 0 2rem;
+    margin-left: 2rem; }
+  .carousel .media img {
+    width: 7.5rem;
+    height: 7.5rem;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    border: 2rem solid #fff; }
+  .carousel .testimonial {
+    color: #505050;
+    position: relative;
+    background: #DDD;
+    padding: 1.5rem;
+    margin: 0 0 2rem 2rem; }
+  .carousel .testimonial::before, .carousel .testimonial::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -0.1rem;
+    bottom: -2rem; }
+  .carousel .testimonial::after {
+    width: 0;
+    height: 0;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 2rem solid #666; }
+  .carousel .carousel-item .row > div:first-child .testimonial {
+    margin: 0 2rem 2rem 0; }
+  .carousel .carousel-item .row > div:first-child .media {
+    margin-left: 0; }
+  .carousel .testimonial p {
+    text-indent: 4rem;
+    line-height: 2.1rem;
+    margin: 0; }
+  .carousel .testimonial p::before {
+    content: open-quote;
+    color: #9b9b9b;
+    font-size: 6rem;
+    line-height: 7rem;
+    position: absolute;
+    left: -2rem;
+    top: 0; }
+  .carousel .overview {
+    padding: .3rem 0 0 1.5rem; }
+  .carousel .overview .details {
+    padding: 0.5rem 0 0.8rem; }
+  .carousel .overview b {
+    text-transform: uppercase;
+    color: #ff5555; }
+  .carousel .carousel-control {
+    width: 3rem;
+    height: 3rem;
+    background: #666;
+    text-shadow: none;
+    top: 0.4rem; }
+  .carousel .carousel-control i {
+    font-size: 1.6rem; }
+  .carousel .carousel-control.left {
+    left: auto;
+    right: 4rem; }
+  .carousel .carousel-control.right {
+    left: auto; }
+  .carousel .carousel-indicators {
+    bottom: -8rem; }
+  .carousel .carousel-indicators li, .carousel .carousel-indicators li.active {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0;
+    margin: 0.1rem 0.4rem; }
+  .carousel .carousel-indicators li {
+    border: 0.4rem solid #fff; }
+  .carousel .carousel-indicators li.active {
+    color: #fff;
+    background: #ff5555;
+    border: 0.5rem double; }
+  .carousel .star-rating li {
+    padding: 0 0.2rem; }
+  .carousel .star-rating i {
+    font-size: 1.4rem;
+    color: #ffdc12; }
+
+/*end testimonials*/
+.filter-search {
+  padding: 1.2rem;
+  border-radius: 25px; }
+
+.btn-outline-success {
+  color: #FFC107;
+  border-color: #FFC107;
+  padding: 0.25rem; }
+
+.order-bill {
+  border: 0.1rem solid #000;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  position: relative; }
+  .order-bill__heading {
+    text-align: center;
+    margin: 3rem 0;
+    font-weight: bold;
+    font-size: 3rem; }
+  .order-bill__total {
+    position: relative;
+    left: 6rem;
+    font-size: 2rem;
+    font-weight: bold; }
+  .order-bill__order {
+    margin: 0 1rem;
+    font-size: 2rem;
+    font-weight: bold; }
+  .order-bill__size {
+    margin: 0 1rem; }
+  .order-bill__total-price {
+    position: relative;
+    left: 7rem;
+    font-size: 2rem;
+    font-weight: bold; }
+  .order-bill__dash {
+    position: relative;
+    top: -0.5rem;
+    width: 15rem;
+    height: 0.1rem;
+    background-color: #d8d5d5;
+    display: inline-block; }
+  .order-bill__price {
+    margin-left: 1rem; }
+  .order-bill__data {
+    margin: 3rem 0; }
+    .order-bill__data:after {
+      content: "";
+      width: 100%;
+      height: 0.2rem;
+      background-color: #d8d5d5;
+      display: block;
+      position: relative;
+      top: 2rem; }
+  .order-bill__check {
+    background-color: #333;
+    width: 70%;
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%); }
+  .order-bill__check-subtotal {
+    margin-right: 1.5rem; }
+  .order-bill__check-info {
+    position: relative; }
+  .order-bill__check-dash {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: #d8d5d5;
+    display: inline-block;
+    position: absolute;
+    top: 1.8rem;
+    left: 50%; }
+  .order-bill__check-price {
+    position: absolute;
+    right: 0rem; }
+  .order-bill .btn {
+    position: relative;
+    top: 1.5rem; }
+
+.margin-bottom {
+  margin-bottom: 2rem; }
+
+.color-primary {
+  color: #FFC107; }
+
+.color-secondary {
+  color: #FB5858; }
 
 .form-separator {
   padding-top: 2.5rem; }
