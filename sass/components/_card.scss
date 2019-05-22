@@ -16,6 +16,7 @@
         background-color:#e6e6e6;
         font-size: 1.3rem;
         margin-bottom: 0.2rem;
+        cursor: pointer
     }
     .fa-heart-o{
         color:red
@@ -113,17 +114,17 @@
        height: 15%;
        display: inline-block;
        line-height: 3rem;
-       text-align: center
+       text-align: center;
+       cursor: pointer
     }
     &__size-info-medium{
-        background-color: $white;
-        color:$black;
         width:70%;
         height: 3rem;
         line-height: 3rem;
         display: inline-block;
         font-size: 1.5rem;
-        text-align: center
+        text-align: center;
+        border: none
     }
     &__size-info-right{
         background-color: $black;
@@ -132,7 +133,8 @@
         height: 15%;
         display: inline-block;
         line-height: 3rem;
-        text-align: center
+        text-align: center;
+        cursor: pointer
     }
     .star-rating li {
         padding: 0 0.1rem;
