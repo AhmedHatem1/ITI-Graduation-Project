@@ -111,43 +111,6 @@ a:hover {
     border-radius: 2.5rem;
     padding: 0.4rem; }
 
-.menu-card__item {
-  background-color: #F2F2F2;
-  padding: 2rem; }
-
-.menu-card__heading {
-  color: #FFC107; }
-
-.menu-card__image-card {
-  margin: 0 auto 1rem;
-  width: 12rem;
-  height: 12rem;
-  position: relative; }
-
-.menu-card__option {
-  width: 1.2rem;
-  height: 1.2rem;
-  display: inline-block;
-  border-radius: 50%;
-  border: 0.2rem solid #FFC107; }
-
-.menu-card__image {
-  width: 100%;
-  border-radius: 50%; }
-
-.menu-card__sale {
-  width: 4.2rem;
-  height: 4.2rem;
-  background-color: #FB5858;
-  border-radius: 50%;
-  position: absolute;
-  color: white;
-  font-size: 1.3rem;
-  line-height: 4.2rem;
-  text-align: center;
-  left: 77%;
-  top: 0rem; }
-
 /*start testimonials*/
 .testimonials {
   background-image: url("../images/Services/testi.jpg");
