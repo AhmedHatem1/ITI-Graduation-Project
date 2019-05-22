@@ -111,6 +111,142 @@ a:hover {
     border-radius: 2.5rem;
     padding: 0.4rem; }
 
+.menu-card__item {
+  background-color: #F2F2F2;
+  padding: 2rem;
+  position: relative; }
+
+.menu-card__edit-delete-fav {
+  position: absolute;
+  left: 0; }
+  .menu-card__edit-delete-fav i {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #e6e6e6;
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem; }
+  .menu-card__edit-delete-fav .fa-heart-o {
+    color: red; }
+  .menu-card__edit-delete-fav .fa-pencil {
+    color: #b6b5b5; }
+  .menu-card__edit-delete-fav .fa-trash {
+    color: #b6b5b5; }
+
+.menu-card__heading {
+  color: #FFC107;
+  margin-bottom: 0.1rem; }
+
+.menu-card__image-card {
+  margin: 0 auto 1rem;
+  width: 12rem;
+  height: 12rem;
+  position: relative; }
+
+.menu-card__option {
+  width: 1.3rem;
+  height: 1.3rem;
+  display: block;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.1rem solid #FFC107;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.menu-card__size {
+  display: flex;
+  justify-content: space-between; }
+
+.menu-card__option-active {
+  background-color: #FFC107; }
+
+.menu-card__option-size {
+  font-size: 1.3rem; }
+
+.menu-card__price-data {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem; }
+
+.menu-card__price-before {
+  opacity: .4; }
+
+.menu-card__dashed {
+  width: 5rem;
+  height: 0.1rem;
+  background-color: #d8d5d5;
+  display: inline-block;
+  position: relative;
+  left: -6rem;
+  top: -0.7rem;
+  margin-right: 1.4rem; }
+
+.menu-card__border {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #d8d5d5;
+  display: inline-block;
+  margin: 2rem 0; }
+
+.menu-card__image {
+  width: 100%;
+  border-radius: 50%; }
+
+.menu-card__sale {
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: #FB5858;
+  border-radius: 50%;
+  position: absolute;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 4.2rem;
+  text-align: center;
+  left: 77%;
+  top: 0rem; }
+
+.menu-card__size-info {
+  display: flex;
+  margin: 2rem 0; }
+
+.menu-card__size-info-left {
+  background-color: #000;
+  color: white;
+  width: 15%;
+  height: 15%;
+  display: inline-block;
+  line-height: 3rem;
+  text-align: center; }
+
+.menu-card__size-info-medium {
+  background-color: white;
+  color: #000;
+  width: 70%;
+  height: 3rem;
+  line-height: 3rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.menu-card__size-info-right {
+  background-color: #000;
+  color: white;
+  width: 15%;
+  height: 15%;
+  display: inline-block;
+  line-height: 3rem;
+  text-align: center; }
+
+.menu-card .star-rating li {
+  padding: 0 0.1rem; }
+
+.menu-card .star-rating i {
+  font-size: 1.4rem;
+  color: #ffdc12; }
+
 /*start testimonials*/
 .testimonials {
   background-image: url("../images/Services/testi.jpg");
