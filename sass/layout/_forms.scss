@@ -1,0 +1,37 @@
+.form-separator{
+        padding-top: 2.5rem;
+}
+
+.input-group{
+    textarea{
+        min-height: 2.5rem;
+    }
+    &-prepend{
+        .input-group-text{
+            &.label{
+                max-width: 7rem;
+                width: 7rem;
+                justify-content: center;
+            }
+        }
+    }
+}
+.invalid-feedback,.valid-feedback{
+    
+    text-align: center;
+    font-size: 1rem;
+}
+.tag-dropdown{
+    top: 30%;
+    left: 20%;
+}
+.form-container{
+    background-color:$color-gray-background1;
+}
+.add{
+    &-group{
+        &.img{
+            width: 75%;
+        }
+    }
+}
