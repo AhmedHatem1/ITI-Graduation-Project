@@ -665,6 +665,38 @@ a:hover {
 .add-group.img {
   width: 75%; }
 
+.d-block--first {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/Slider/img1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; }
+
+.d-block--second {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/Slider/img2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; }
+
+.d-block--third {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/Slider/img3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; }
+
+.carousel-description {
+  color: red;
+  border-left: 1rem solid #FFC107; }
+
+.caption {
+  letter-spacing: 0.15rem;
+  line-height: 4.2rem;
+  margin: 0;
+  font-size: 4rem;
+  text-align: left;
+  padding-left: 2rem; }
+
+.x {
+  position: absolute;
+  left: 8rem;
+  bottom: 35rem; }
+
 .nopadding {
   padding: 0 !important;
   margin: 0 !important; }
