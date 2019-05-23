@@ -96,6 +96,7 @@
       }
       & .nav-item .cart-icon {
         position: relative;
+        cursor: pointer;
         &__orders {
           background-color: red;
           line-height: 3px;
@@ -110,6 +111,9 @@
           top: -3px;
           right: 3px;
         }
+      }
+      & .nav-item .setting_icon {
+        cursor: pointer;
       }
     }
   }
