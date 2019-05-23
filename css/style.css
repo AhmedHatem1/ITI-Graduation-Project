@@ -13,8 +13,7 @@ body {
   font-size: 2rem;
   letter-spacing: 0.3px;
   line-height: 1.7rem;
-  overflow-x: hidden;
-  height: 3000px; }
+  overflow-x: hidden; }
 
 a:focus,
 a:hover {
@@ -375,6 +374,78 @@ a:hover {
   border-color: #FFC107;
   padding: 0.25rem; }
 
+.control {
+  font-size: 1.3rem;
+  font-weight: 200;
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  cursor: pointer;
+  color: #505050;
+  transition: 0.4s; }
+
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0; }
+
+.control__indicator {
+  position: absolute;
+  top: 5px;
+  left: 80px;
+  width: 15px;
+  height: 15px;
+  transition: 0.3s;
+  background: #e6e6e6; }
+
+.control--radio .control__indicator {
+  border-radius: 50%; }
+
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc; }
+
+.control input:checked ~ .control__indicator {
+  background: #FFC107;
+  transition: 0.3s; }
+
+.control input:disabled ~ .control__indicator {
+  pointer-events: none;
+  opacity: 0.6;
+  background: #e6e6e6; }
+
+.control__indicator:after {
+  position: absolute;
+  display: none;
+  content: ""; }
+
+.control input:checked ~ .control__indicator:after {
+  display: block; }
+
+.control--checkbox .control__indicator:after {
+  top: 4px;
+  left: 8px;
+  width: 3px;
+  height: 8px;
+  transform: rotate(45deg);
+  border: solid #fff;
+  border-width: 0 1px 1px 0; }
+
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #7b7b7b; }
+
+.control--radio .control__indicator:after {
+  top: 1px;
+  left: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff; }
+
+.control--radio input:disabled ~ .control__indicator:after {
+  background: #7b7b7b; }
+
 .order-bill {
   border: 0.1rem solid #000;
   padding: 1rem;
@@ -621,3 +692,29 @@ a:hover {
           right: 3px; }
       .navigation__basic .nav-extras .nav-item .setting_icon {
         cursor: pointer; }
+
+.sidebar {
+  background-color: #F9F9F9;
+  padding: 30px; }
+  .sidebar__headline {
+    color: #979797;
+    font-size: 2.5rem; }
+  .sidebar__avatar {
+    width: 100px;
+    height: 100px; }
+  .sidebar .link__copy {
+    background-color: #FFC107;
+    color: #F9F9F9; }
+  .sidebar .link__info {
+    padding: 7px 15px;
+    background-color: #363030; }
+  .sidebar .group__link {
+    font-size: 1rem;
+    color: #F9F9F9; }
+  .sidebar__links {
+    background-color: #363030;
+    padding: 7px 15px;
+    color: #aaa;
+    font-size: 1.7rem; }
+  .sidebar hr {
+    border: 1px solid #FFC107; }
