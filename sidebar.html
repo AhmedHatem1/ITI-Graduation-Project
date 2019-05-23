@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hungry</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="sidebar">
+            <h2 class="sidebar__headline mb-5">Categories</h2>
+            <form class="text-center">
+              <ul class="sidebar__list">
+                <li class="form-group sidebar__list__item">
+                  <label class="control control--checkbox"
+                    >Fast Food
+                    <input type="checkbox" />
+                    <div class="control__indicator"></div>
+                  </label>
+                </li>
+                <hr />
+                <li class="form-group sidebar__list__item">
+                  <label class="control control--checkbox"
+                    >Fast Food
+                    <input type="checkbox" />
+                    <div class="control__indicator"></div>
+                  </label>
+                </li>
+                <hr />
+                <li class="form-group sidebar__list__item">
+                  <label class="control control--checkbox"
+                    >Fast Food
+                    <input type="checkbox" />
+                    <div class="control__indicator"></div>
+                  </label>
+                </li>
+                <hr />
+              </ul>
+            </form>
+            <h2 class="sidebar__headline">Prices</h2>
+            <form>
+              <div class="form-group">
+                <input class="form-control" type="range" min="0" max="1000" />
+              </div>
+            </form>
+            <button class="btn btn-primary btn-block">View More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="sidebar  text-center">
+            <div class="sidebar__avatar mx-auto my-3">
+              <img
+                src="http://placehold.it/100/100"
+                alt="Avatar"
+                class="img-fluid rounded-circle"
+              />
+            </div>
+            <h2 class="username">Ahmed Hatem</h2>
+
+            <div class="alert alert-primary link__info">
+              <button class="btn  link__copy ml-1">Copy Link</button>
+              <span class="group__link">http://placehold.it/100/100</span>
+            </div>
+            <ul>
+              <li class="my-5">
+                <div class=" sidebar__links">
+                    <i class="fa fa-users"></i>
+                    <span>My Groups</span>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+             
+                <ul>
+                  <li class="p-2"><input type="text" placeholder="Search group .. " class="form-control p-4"></li>
+                  <li class="p-1 mb-1"><a href="">ITI UI group</a></li>
+                  <hr>
+
+                  <li class="p-1 mb-1 "><a href="">ITI UI group</a></li>
+                  <hr>
+
+                  <li class="p-1 mb-1 "><a href="">ITI UI group</a></li>
+                  <hr>
+
+                  <li class="p-1 mb-1 "><a href="">ITI UI group</a></li>
+                </ul>
+              </li>
+
+
+              <li class="my-1  sidebar__links">
+                  <i class="fa fa-heart"></i>
+                  <span>Favourite</span>
+                  <i class="fa fa-caret-down"></i>
+                  
+                </li>
+
+                <li class="my-5  sidebar__links">
+                    <i class="fa fa-history"></i>
+                    <span>History</span>
+                    <i class="fa fa-caret-down"></i>                    
+                  </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
