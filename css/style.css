@@ -77,6 +77,22 @@ a:hover {
 .inputPadding--focus:focus {
   padding-left: 1.5rem; }
 
+.comment.account-card__img {
+  width: 100px;
+  border-radius: 50%;
+  background: red;
+  overflow: hidden;
+  border: 1px solid gray; }
+
+.filter-search {
+  padding: 1.2rem;
+  border-radius: 25px; }
+
+.btn-outline-success {
+  color: #FFC107;
+  border-color: #FFC107;
+  padding: 0.25rem; }
+
 .form-separator {
   padding-top: 2.5rem; }
 
