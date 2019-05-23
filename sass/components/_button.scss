@@ -1,0 +1,42 @@
+.btn {
+  width: 13rem;
+  padding: 1.1rem;
+  margin: 0 auto;
+  font-size: 2rem;
+  color: $white;
+  &--rounded {
+    border-radius: 1rem;
+  }
+  &--rounded-small {
+    border-radius: 0.5rem;
+  }
+  &--black {
+    background-color: #333;
+    &:hover {
+      color: $color-secondary;
+    }
+  }
+  &--small-btn {
+    font-size: 1.3rem;
+  }
+  &--small {
+    width: 10rem;
+    padding: 0.5rem 0;
+  }
+  &--secondary {
+    background-color: $color-secondary;
+  }
+  &--primary {
+    background-color: $color-primary;
+  }
+  &--border {
+    border: 0.5rem solid $color-primary;
+  }
+  &--transparent {
+    background-color: transparent;
+    color: $white;
+    width: 11.757rem;
+    border-radius: 2.5rem;
+    padding: 0.4rem;
+  }
+}

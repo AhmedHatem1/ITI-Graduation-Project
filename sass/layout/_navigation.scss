@@ -10,8 +10,11 @@
     height: 25px;
     background-color: $color-primary;
     > .login {
-      margin-right: 30%;
-      font-size: 1rem;
+      margin-right: 14%;
+      font-size: 1.5rem;
+      & :hover {
+        color: $color-dark-navbar1;
+      }
     }
   }
   &__basic {
@@ -22,7 +25,7 @@
     .navbar-brand {
       color: $color-primary;
       font-family: $head-font;
-      font-size: 35px;
+      font-size: 3.5rem;
       font-weight: bold;
       padding-top: 0px;
     }
@@ -33,7 +36,7 @@
       background-color: $color-dark-navbar1;
     }
     & > .nav-line {
-      line-height: 36px;
+      line-height: 3.6rem;
     }
     & .nav-content {
       width: 36%;
@@ -42,8 +45,8 @@
       }
       & ul li a {
         font-family: $head-font;
-        font-size: 20px;
-        font-weight: lighter;
+        font-size: 2rem;
+        font-weight: 400;
         color: $white;
         position: relative;
       }
@@ -84,19 +87,33 @@
     }
     & .nav-extras {
       width: 30%;
-      & .navbar-nav {
-        list-style-type: none;
-        float: left;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-      & .navbar-nav li a {
-        display: block;
+      & .nav li a {
         color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
+        font-size: 2.5rem;
+      }
+      & .nav-btn:hover {
+        color: white;
+      }
+      & .nav-item .cart-icon {
+        position: relative;
+        cursor: pointer;
+        &__orders {
+          background-color: red;
+          line-height: 3px;
+          height: 13px;
+          width: 13px;
+          border-radius: 50%;
+          padding: 5px 3px 5px;
+          color: $white;
+          font-size: 1.2rem;
+          font-weight: bold;
+          position: absolute;
+          top: -3px;
+          right: 3px;
+        }
+      }
+      & .nav-item .setting_icon {
+        cursor: pointer;
       }
     }
   }
