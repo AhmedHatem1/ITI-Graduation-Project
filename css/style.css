@@ -4,15 +4,17 @@
   margin: 0; }
 
 html {
-  font-size: 100%; }
+  font-size: 62.5%; }
 
 body {
   color: #495057;
   font-family: "Roboto", "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 2rem;
   letter-spacing: 0.3px;
-  line-height: 1.7rem; }
+  line-height: 1.7rem;
+  overflow-x: hidden;
+  height: 3000px; }
 
 a:focus,
 a:hover {
@@ -77,6 +79,15 @@ a:hover {
 .inputPadding--focus:focus {
   padding-left: 1.5rem; }
 
+.filter-search {
+  padding: 1.2rem;
+  border-radius: 25px; }
+
+.btn-outline-success {
+  color: #FFC107;
+  border-color: #FFC107;
+  padding: 0.25rem; }
+
 .form-separator {
   padding-top: 2.5rem; }
 
@@ -101,6 +112,38 @@ a:hover {
 
 .add-group.img {
   width: 75%; }
+
+.d-block--first {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/Slider/img1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; }
+
+.d-block--second {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/Slider/img2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; }
+
+.d-block--third {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/Slider/img3.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; }
+
+.carousel-description {
+  color: red;
+  border-left: 1rem solid #FFC107; }
+
+.caption {
+  letter-spacing: 0.15rem;
+  line-height: 4.2rem;
+  margin: 0;
+  font-size: 4rem;
+  text-align: left;
+  padding-left: 2rem; }
+
+.x {
+  position: absolute;
+  left: 8rem;
+  bottom: 35rem; }
 
 .nopadding {
   padding: 0 !important;
