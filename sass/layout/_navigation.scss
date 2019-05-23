@@ -1,0 +1,120 @@
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navigation {
+  height: 77px;
+  &__secondary {
+    width: 100%;
+    height: 25px;
+    background-color: $color-primary;
+    > .login {
+      margin-right: 14%;
+      font-size: 1.5rem;
+      & :hover {
+        color: $color-dark-navbar1;
+      }
+    }
+  }
+  &__basic {
+    height: 53.35px;
+    .navbar {
+      padding: 0px;
+    }
+    .navbar-brand {
+      color: $color-primary;
+      font-family: $head-font;
+      font-size: 3.5rem;
+      font-weight: bold;
+      padding-top: 0px;
+    }
+    .navbar-light {
+      background-color: transparent;
+    }
+    &.navbar-dark {
+      background-color: $color-dark-navbar1;
+    }
+    & > .nav-line {
+      line-height: 3.6rem;
+    }
+    & .nav-content {
+      width: 36%;
+      & ul {
+        margin-bottom: 0px;
+      }
+      & ul li a {
+        font-family: $head-font;
+        font-size: 2rem;
+        font-weight: 400;
+        color: $white;
+        position: relative;
+      }
+      & ul li a:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 3px;
+        width: 0;
+        @include transition(width 0s ease);
+        @include transition(background 0.5s ease);
+      }
+      & ul li a:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        height: 3px;
+        width: 0;
+        background: $color-primary;
+        @include transition(width 0.5s ease);
+      }
+      & ul li a:hover:before,
+      ul li a.active:before {
+        width: 100%;
+        background: $color-primary;
+        @include transition(width 0.5s ease);
+      }
+      & ul li a:hover:after,
+      ul li a.active:after {
+        width: 100%;
+        background: transparent;
+        @include transition(all 0s ease);
+      }
+    }
+    & .nav-extras {
+      width: 30%;
+      & .nav li a {
+        color: white;
+        font-size: 2.5rem;
+      }
+      & .nav-btn:hover {
+        color: white;
+      }
+      & .nav-item .cart-icon {
+        position: relative;
+        cursor: pointer;
+        &__orders {
+          background-color: red;
+          line-height: 3px;
+          height: 13px;
+          width: 13px;
+          border-radius: 50%;
+          padding: 5px 3px 5px;
+          color: $white;
+          font-size: 1.2rem;
+          font-weight: bold;
+          position: absolute;
+          top: -3px;
+          right: 3px;
+        }
+      }
+      & .nav-item .setting_icon {
+        cursor: pointer;
+      }
+    }
+  }
+}

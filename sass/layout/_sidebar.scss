@@ -23,7 +23,12 @@
     font-size: 1rem;
     color: $color-gray-background1;
   }
-
+  &__links {
+    background-color: $color-dark-navbar1;
+    padding: 7px 15px;
+    color: #aaa;
+    font-size: 1.7rem;
+  }
   hr {
     border: 1px solid $color_primary;
   }
