@@ -17,11 +17,11 @@
   height: 100vh;
 }
 .carousel-description {
-  color: red;
-  // position: absolute;
+  color: $white;
+  position: absolute;
   border-left: 1rem solid $color-primary;
-  // left: 8rem;
-  // bottom: 35rem;
+  left: 8rem;
+  bottom: 35rem;
 }
 
 .caption {
@@ -32,8 +32,22 @@
   text-align: left;
   padding-left: 2rem;
 }
-.x {
+.form-search {
   position: absolute;
   left: 8rem;
-  bottom: 35rem;
+  top: 40rem;
+}
+
+.input-search {
+  width: 35rem !important;
+  border-radius: 0;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.btn-search {
+  font-size: 2.4rem;
+  &:hover {
+    background-color: $color-primary;
+    border-color: $color-primary;
+  }
 }

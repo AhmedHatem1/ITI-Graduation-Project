@@ -10,7 +10,7 @@ body {
   color: #495057;
   font-family: "Roboto", "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 0.3px;
   line-height: 1.7rem;
   overflow-x: hidden; }
@@ -79,10 +79,7 @@ a:hover {
   padding-left: 1.5rem; }
 
 .btn {
-  width: 13rem;
-  padding: 1.1rem;
-  margin: 0 auto;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: white; }
   .btn--rounded {
     border-radius: 1rem; }
@@ -247,6 +244,81 @@ a:hover {
 .menu-card .star-rating i {
   font-size: 1.4rem;
   color: #ffdc12; }
+
+.big-cart {
+  height: 700 px !important;
+  display: flex;
+  flex-wrap: wrap;
+  font: 500;
+  margin: auto;
+  font-size: 3rem !important;
+  padding-top: 2rem;
+  padding-bottom: 3.5rem;
+  margin-top: 5rem !important;
+  line-height: 5rem !important; }
+  .big-cart-now {
+    color: #FFC107; }
+
+.big-cart-img {
+  height: 100%; }
+
+.img2 {
+  height: 100% !important;
+  width: 100%; }
+
+.big-title {
+  color: white;
+  margin: auto;
+  padding-top: 5.1rem;
+  font-size: 3.6rem; }
+
+.bg-color {
+  height: 444px;
+  background-color: rgba(51, 51, 51, 0.6); }
+
+.carts-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin: auto;
+  justify-content: center; }
+
+.cart {
+  text-align: center;
+  height: 8.5 rem !important;
+  flex-basis: 27%;
+  margin-top: 3.5rem; }
+
+.cart-img {
+  height: 32% !important;
+  width: 30%;
+  margin: auto;
+  border-radius: 50%; }
+
+.cart-title {
+  color: #FFC107;
+  padding-top: 3rem;
+  font-family: "Roboto";
+  font-size: 2.4rem; }
+
+.cart-descryption {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+  color: white; }
+
+.cart-number {
+  background-color: #ea4335;
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  justify-items: center; }
 
 /*start testimonials*/
 .testimonials {
@@ -533,11 +605,41 @@ a:hover {
 .color-secondary {
   color: #FB5858; }
 
+.pagination {
+  position: absolute;
+  left: 80%; }
+
 .img_container {
   width: 565.5px;
   height: 731px;
   margin: 5px auto;
   position: relative; }
+
+.ftco-footer {
+  color: white !important;
+  z-index: 0; }
+  .ftco-footer-widget {
+    margin-bottom: 4px; }
+  .ftco-footer-social li {
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center; }
+  .ftco-footer-social li a {
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 3px;
+    border-radius: 50%; }
+
+.a {
+  color: white !important; }
+  .a :hover {
+    color: #FFC107 !important; }
+
+.container-color {
+  background-color: #222222;
+  padding-top: 20rem; }
 
 .form-separator {
   padding-top: 2.5rem; }
@@ -580,8 +682,11 @@ a:hover {
   height: 100vh; }
 
 .carousel-description {
-  color: red;
-  border-left: 1rem solid #FFC107; }
+  color: white;
+  position: absolute;
+  border-left: 1rem solid #FFC107;
+  left: 8rem;
+  bottom: 35rem; }
 
 .caption {
   letter-spacing: 0.15rem;
@@ -591,10 +696,22 @@ a:hover {
   text-align: left;
   padding-left: 2rem; }
 
-.x {
+.form-search {
   position: absolute;
   left: 8rem;
-  bottom: 35rem; }
+  top: 40rem; }
+
+.input-search {
+  width: 35rem !important;
+  border-radius: 0;
+  font-size: 2rem;
+  padding: 2rem; }
+
+.btn-search {
+  font-size: 2.4rem; }
+  .btn-search:hover {
+    background-color: #FFC107;
+    border-color: #FFC107; }
 
 .nopadding {
   padding: 0 !important;
