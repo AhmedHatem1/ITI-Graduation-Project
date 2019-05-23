@@ -4,7 +4,7 @@
   margin: 0; }
 
 html {
-  font-size: 100%; }
+  font-size: 62.5%; }
 
 body {
   color: #495057;
@@ -77,6 +77,12 @@ a:hover {
 .inputPadding--focus:focus {
   padding-left: 1.5rem; }
 
+.img_container {
+  width: 565.5px;
+  height: 731px;
+  margin: 5px auto;
+  position: relative; }
+
 .form-separator {
   padding-top: 2.5rem; }
 
@@ -113,8 +119,10 @@ a:hover {
     height: 25px;
     background-color: #FFC107; }
     .navigation__secondary > .login {
-      margin-right: 30%;
-      font-size: 1rem; }
+      margin-right: 14%;
+      font-size: 1.5rem; }
+      .navigation__secondary > .login :hover {
+        color: #363030; }
   .navigation__basic {
     height: 53.35px; }
     .navigation__basic .navbar {
@@ -122,7 +130,7 @@ a:hover {
     .navigation__basic .navbar-brand {
       color: #FFC107;
       font-family: "Roboto";
-      font-size: 35px;
+      font-size: 3.5rem;
       font-weight: bold;
       padding-top: 0px; }
     .navigation__basic .navbar-light {
@@ -130,15 +138,15 @@ a:hover {
     .navigation__basic.navbar-dark {
       background-color: #363030; }
     .navigation__basic > .nav-line {
-      line-height: 36px; }
+      line-height: 3.6rem; }
     .navigation__basic .nav-content {
       width: 36%; }
       .navigation__basic .nav-content ul {
         margin-bottom: 0px; }
       .navigation__basic .nav-content ul li a {
         font-family: "Roboto";
-        font-size: 20px;
-        font-weight: lighter;
+        font-size: 2rem;
+        font-weight: 400;
         color: white;
         position: relative; }
       .navigation__basic .nav-content ul li a:before {
@@ -173,15 +181,23 @@ a:hover {
         transition: all 0s ease; }
     .navigation__basic .nav-extras {
       width: 30%; }
-      .navigation__basic .nav-extras .navbar-nav {
-        list-style-type: none;
-        float: left;
-        margin: 0;
-        padding: 0;
-        overflow: hidden; }
-      .navigation__basic .nav-extras .navbar-nav li a {
-        display: block;
+      .navigation__basic .nav-extras .nav li a {
         color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none; }
+        font-size: 2.5rem; }
+      .navigation__basic .nav-extras .nav-btn:hover {
+        color: white; }
+      .navigation__basic .nav-extras .nav-item .cart-icon {
+        position: relative; }
+        .navigation__basic .nav-extras .nav-item .cart-icon__orders {
+          background-color: red;
+          line-height: 3px;
+          height: 13px;
+          width: 13px;
+          border-radius: 50%;
+          padding: 5px 3px 5px;
+          color: white;
+          font-size: 1.2rem;
+          font-weight: bold;
+          position: absolute;
+          top: -3px;
+          right: 3px; }
