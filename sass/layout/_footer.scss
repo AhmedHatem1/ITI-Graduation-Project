@@ -1,0 +1,42 @@
+.ftco-footer{
+   color: $white !important;
+   z-index: 0;
+
+   &-widget
+   {
+    margin-bottom: 4px;
+   }
+   &-social li
+   {
+       list-style: none;
+       display: inline-block;
+       width: 40px;
+       height: 40px;
+       text-align: center;
+   }
+   &-social li a
+   {
+      
+       display: block;
+       background: rgba(255, 255, 255, 0.1);
+       margin: 3px;
+       border-radius: 50%;
+   }
+
+}
+
+.a
+{
+    color : $white !important;
+    :hover{
+        color: $color-primary !important;
+    }
+}
+
+
+.container-color
+{
+    background-color: #222222 ;
+    padding-top: 20rem;
+    
+}
