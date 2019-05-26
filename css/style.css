@@ -780,6 +780,16 @@ a:hover {
   background-color: #222222;
   padding-top: 20rem; }
 
+.footer {
+  background-color: #141414;
+  height: 6.7rem;
+  margin-top: 8rem; }
+  .footer__content {
+    font-family: "Roboto";
+    font-size: 2rem;
+    color: #FFC107;
+    font-weight: 100; }
+
 .form-separator {
   padding-top: 2.5rem; }
 
@@ -949,6 +959,12 @@ a:hover {
           right: 3px; }
       .navigation__basic .nav-extras .nav-item .setting_icon {
         cursor: pointer; }
+
+.listing-header {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: rgba(51, 51, 51, 0.5); }
 
 .sidebar {
   background-color: #F9F9F9;
