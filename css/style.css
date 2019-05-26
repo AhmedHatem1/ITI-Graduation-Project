@@ -154,19 +154,27 @@ a:hover {
     cursor: pointer; }
   .menu-card__edit-delete-fav .fa-heart-o {
     color: red; }
-  .menu-card__edit-delete-fav .fa-pencil {
+
+.menu-card__fav {
+  position: absolute;
+  right: 2rem;
+  top: 2rem; }
+  .menu-card__fav .fa-heart-o {
+    color: red; }
+  .menu-card__fav .fa-pencil {
     color: #b6b5b5; }
-  .menu-card__edit-delete-fav .fa-trash {
+  .menu-card__fav .fa-trash {
     color: #b6b5b5; }
 
 .menu-card__heading {
   color: #FFC107;
+  font-size: 1.9rem;
   margin-bottom: 0.1rem; }
 
 .menu-card__image-card {
   margin: 0 auto 1rem;
-  width: 12rem;
-  height: 12rem;
+  width: 9rem;
+  height: 9rem;
   position: relative; }
 
 .menu-card__size {
@@ -195,7 +203,7 @@ a:hover {
 .menu-card__option {
   width: 1.5rem;
   height: 1.5rem;
-  margin: 0.5rem auto;
+  margin: 0rem auto 0.5rem;
   display: block;
   border-radius: 50%;
   background-color: white;
@@ -227,7 +235,7 @@ a:hover {
   height: 0.1rem;
   background-color: #d8d5d5;
   display: inline-block;
-  margin: 2rem 0; }
+  margin: 2rem 0 1rem; }
 
 .menu-card__image {
   width: 100%;
@@ -285,6 +293,19 @@ a:hover {
 .menu-card .star-rating i {
   font-size: 1.4rem;
   color: #ffdc12; }
+
+.menu-card__data {
+  font-size: 1.5rem;
+  line-height: 1.2; }
+
+.menu-card__info-data {
+  display: flex; }
+
+.menu-card__menu-data {
+  margin-left: 1.6rem; }
+
+.menu-card .margin-right {
+  margin-right: 0.5rem; }
 
 .big-cart {
   height: 700 px !important;
@@ -652,7 +673,7 @@ a:hover {
 
 .page-item .page-link {
   color: #495057 !important;
-  padding: 20px 30px;
+  padding: 10px 20px;
   font-size: 1.8rem; }
 
 .page-item.active .page-link {
