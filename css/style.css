@@ -139,13 +139,21 @@ a:hover {
     cursor: pointer; }
   .menu-card__edit-delete-fav .fa-heart-o {
     color: red; }
-  .menu-card__edit-delete-fav .fa-pencil {
+
+.menu-card__fav {
+  position: absolute;
+  right: 2rem;
+  top: 2rem; }
+  .menu-card__fav .fa-heart-o {
+    color: red; }
+  .menu-card__fav .fa-pencil {
     color: #b6b5b5; }
-  .menu-card__edit-delete-fav .fa-trash {
+  .menu-card__fav .fa-trash {
     color: #b6b5b5; }
 
 .menu-card__heading {
   color: #FFC107;
+  font-size: 1.9rem;
   margin-bottom: 0.1rem; }
 
 .menu-card__image-card {
@@ -270,6 +278,19 @@ a:hover {
 .menu-card .star-rating i {
   font-size: 1.4rem;
   color: #ffdc12; }
+
+.menu-card__data {
+  font-size: 1.5rem;
+  line-height: 1.2; }
+
+.menu-card__info-data {
+  display: flex; }
+
+.menu-card__menu-data {
+  margin-left: 1.6rem; }
+
+.menu-card .margin-right {
+  margin-right: 0.5rem; }
 
 .big-cart {
   height: 700 px !important;
