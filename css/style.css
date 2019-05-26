@@ -633,9 +633,15 @@ a:hover {
 .color-secondary {
   color: #FB5858; }
 
-.pagination {
-  position: absolute;
-  left: 80%; }
+.page-item .page-link {
+  color: #495057 !important;
+  padding: 20px 30px;
+  font-size: 1.8rem; }
+
+.page-item.active .page-link {
+  background-color: #FFC107;
+  border: 1px solid #FFC107;
+  color: #fff !important; }
 
 .form-style__img {
   width: 565.5px;
