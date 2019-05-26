@@ -5,7 +5,7 @@
   padding: 0.4rem 1rem;
   font-size: 1.8rem;
   line-height: 1.5;
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out 0.5s;
   cursor: pointer;
   border-radius: 0.5rem;
   &--black {
@@ -14,7 +14,7 @@
       color: $color-primary;
     }
   }
-  &--block-btn{
+  &--block-btn {
     margin: 0 auto;
     display: block;
   }
@@ -41,6 +41,26 @@
     color: $white;
     width: 11.757rem;
     border-radius: 2.5rem;
-    padding: 0.4rem
+    padding: 0.4rem;
+  }
+  &-filterNav {
+    background-color: transparent;
+    color: $color-primary;
+    &:hover {
+      color: $color-gray-background3;
+    }
+  }
+  &-homeSearch {
+    letter-spacing: 0.15rem;
+    padding: .5rem;
+    color: $color-primary;
+    border: 0.2rem solid $color-primary;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    &:hover {
+      color: $white;
+      background-color: $color-primary;
+    }
   }
 }
