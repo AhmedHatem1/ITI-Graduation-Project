@@ -1,3 +1,7 @@
+.menu-border{
+    border: 0.11rem solid $color-primary;
+    padding: 0
+}
 .menu-card{
    &__item{
     background-color: $color-gray-background4;
@@ -42,11 +46,20 @@
     font-size: 1.9rem;
     margin-bottom: 0.1rem;
    }
+   &__heading--black{
+    color:  $black;
+    font-size: 2.4rem;
+    margin-bottom: 0.1rem;
+   }
    &__image-card{
         margin: 0 auto 1rem;
-        width:9rem;
-        height:9rem;
+        width:8rem;
+        height:8rem;
         position: relative;
+   }
+   &__calender-time{
+    font-size: 1.7rem;
+    margin: 1.5rem;
    }
    &__size{
     display: flex;
@@ -111,6 +124,13 @@
         width:100%;
         height: 0.1rem;
         background-color: rgb(216, 213, 213);
+        display: inline-block;
+        margin: 2rem 0 1rem;
+    }
+    &__border-primary{
+        width:100%;
+        height: 0.1rem;
+        background-color: $color-primary;
         display: inline-block;
         margin: 2rem 0 1rem;
     }
@@ -183,6 +203,39 @@
     }
     .margin-right{
         margin-right: 0.5rem;
+    }
+    &__edit-delete{
+        position: absolute;
+        right: 1rem;
+        bottom:2.5rem;
+        i{
+           font-size: 2rem;
+           margin-left: 0.5rem;
+        }
+        
+    }
+    .border--primary{
+        border: .2rem solid $color-primary;
+        border-radius: 50%;
+    }
+    &__item-add{
+        height:26.2rem;
+       padding-top: 50%;
+       p{
+           font-size: 1.8rem;
+       }
+    }
+    i{
+        cursor: pointer
+    }
+    &__calender-time-date{
+       p,span{
+        font-size: 1.8rem;
+       }
+        display: flex;
+       i{
+           margin-right: 3rem;
+       }
     }
 }
 
