@@ -158,8 +158,8 @@ a:hover {
 
 .menu-card__image-card {
   margin: 0 auto 1rem;
-  width: 12rem;
-  height: 12rem;
+  width: 9rem;
+  height: 9rem;
   position: relative; }
 
 .menu-card__size {
@@ -188,7 +188,7 @@ a:hover {
 .menu-card__option {
   width: 1.5rem;
   height: 1.5rem;
-  margin: 0.5rem auto;
+  margin: 0rem auto 0.5rem;
   display: block;
   border-radius: 50%;
   background-color: white;
@@ -220,7 +220,7 @@ a:hover {
   height: 0.1rem;
   background-color: #d8d5d5;
   display: inline-block;
-  margin: 2rem 0; }
+  margin: 2rem 0 1rem; }
 
 .menu-card__image {
   width: 100%;
