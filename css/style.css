@@ -141,8 +141,7 @@ a:hover {
 .menu-card__item {
   background-color: #F2F2F2;
   padding: 2rem;
-  position: relative;
-  border-radius: 1.5rem; }
+  position: relative; }
 
 .menu-card__edit-delete-fav {
   position: absolute;
@@ -352,7 +351,8 @@ a:hover {
 .menu-card__calender-time-date {
   display: flex; }
   .menu-card__calender-time-date p, .menu-card__calender-time-date span {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    margin-bottom: 1rem; }
   .menu-card__calender-time-date i {
     margin-right: 3rem; }
 
