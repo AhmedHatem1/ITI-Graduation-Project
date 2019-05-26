@@ -1,29 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Hungry</title>
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
-
-    <div class="container form d-flex flex-direction-row justify-content-center align-items-center">
-        <img src="./assets/register.png" alt="Background for register form" class="img_container"/>
-        <div class="row">
-            <div class="col-md-12 col-sm-6 form-header">
-            
-            
-            </div>
+  <body>
+    <!--start register-->
+    <!-- <div
+      class="container form-style d-flex flex-direction-row justify-content-center align-items-center"
+    >
+      <img
+        src="./assets/register.png"
+        alt="Background for register form"
+        class="form-style__img"
+      />
+      <a href="#" class="form-style__close"
+        ><i class="fa fa-times-circle d-flex justify-content-end"></i
+      ></a>
+      <div class="row">
+        <div class="col-md-12 col-sm-6 form-style__body">
+          <h2 class="form-style__body__title">Register</h2>
+          <form class="form-style__body__inputs" method="GET" action="#">
+            <input
+              type="text"
+              name="full-name"
+              placeholder="Full Name"
+              class="invalid"
+              autofocus
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="valid"
+            />
+            <input type="password" name="password" placeholder="Password" />
+            <input
+              type="password"
+              name="confirm-password"
+              placeholder="Confirm Password"
+            />
+            <button>Register</button>
+          </form>
         </div>
+      </div>
+    </div> -->
+    <!--end register-->
+    <!--start login-->
+    <div
+      class="container form-style d-flex flex-direction-row justify-content-center align-items-center"
+    >
+      <img
+        src="./assets/login.png"
+        alt="Background for register form"
+        class="form-style__img"
+      />
+    <a href="#" class="form-style__close"
+        ><i class="fa fa-times-circle d-flex justify-content-end"></i
+      ></a>
+      <div class="row">
+        <div class="col-md-12 col-sm-6 form-style__body">
+          <h2 class="form-style__body__title">Log in</h2>
+          <form class="form-style__body__inputs" method="GET" action="#">
+            <input
+              type="text"
+              name="full-name"
+              placeholder="Full Name"
+              autofocus
+            />
+            <input type="password" name="password" placeholder="Password" />
+            <button>Sign in</button>
+          </form>
+          <p
+            class="form-style__body--forget  d-flex flex-direction-row justify-content-center align-items-center"
+          >
+            <a href="#">Forget Password</a>
+          </p>
+          <p
+            class="form-style__body--signup  d-flex flex-direction-row justify-content-center align-items-center"
+          >
+            Don't have an account ? <a href="#">Signup</a>
+          </p>
+        </div>
+      </div>
     </div>
-
-</body>
-
+    <!--end login-->
+  </body>
 </html>
