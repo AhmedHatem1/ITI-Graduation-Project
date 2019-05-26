@@ -1,4 +1,12 @@
-.pagination {
-  position: absolute;
-  left: 80%;
+.page-item {
+  .page-link {
+    color: $color !important;
+    padding: 20px 30px;
+    font-size: 1.8rem;
+  }
+  &.active .page-link {
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
+    color: #fff !important;
+  }
 }
