@@ -1,6 +1,102 @@
-.img_container {
-  width: 565.5px;
-  height: 731px;
-  margin: 5px auto;
-  position: relative;
+.form-style {
+  &__img {
+    width: 565.5px;
+    height: 731px;
+    margin: 5px auto;
+    position: relative;
+  }
+  &__close {
+    color: red;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 100px;
+    right: 516px;
+    &:hover {
+      color: red;
+    }
+  }
+  &__body {
+    position: absolute;
+    top: 3rem;
+    right: 60rem;
+    font-family: $main-font;
+    width: 21%;
+    margin: 95px auto;
+
+    &__title {
+      font-family: "Oswald Regular";
+      font-size: 3rem;
+      color: #232323;
+    }
+    &__inputs input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      outline: none;
+      display: block;
+      width: 100%;
+      padding: 7px;
+      border: none;
+      border-bottom: 2px solid $white;
+      background: transparent;
+      margin-bottom: 10px;
+      font-size: 2rem;
+      height: 45px;
+      &.invalid {
+        border-bottom: 2px solid red;
+      }
+      &.valid {
+        border-bottom: 2px solid #49b449;
+      }
+    }
+    &__inputs button {
+      width: 29.6rem;
+      height: 3.975rem;
+      background-color: $white;
+      color: #414040;
+      font-size: 2rem;
+      @include border-radius(5px);
+      border: none;
+      display: inline-block;
+      cursor: pointer;
+      padding: 8px 18px;
+      text-decoration: none;
+      outline: none;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+      -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+      -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+      margin-top: 3rem;
+    }
+    &--forget > a {
+      font-size: 2rem;
+      color: #fff9f9;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+    &--signup {
+      font-size: 2rem;
+      font-weight: lighter;
+      margin-top: 40px;
+      color: #414040;
+      & > a {
+        font-weight: bold;
+        &:hover {
+          color: #414040;
+        }
+      }
+    }
+  }
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $white;
+    opacity: 0.7;
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $white;
+    opacity: 0.7;
+  }
 }
