@@ -122,7 +122,8 @@ a:hover {
 .menu-card__item {
   background-color: #F2F2F2;
   padding: 2rem;
-  position: relative; }
+  position: relative;
+  border-radius: 1.5rem; }
 
 .menu-card__edit-delete-fav {
   position: absolute;
