@@ -2,7 +2,8 @@
    &__item{
     background-color: $color-gray-background4;
     padding: 2rem;
-    position: relative
+    position: relative;
+   
    }
    &__edit-delete-fav{
     position: absolute;
@@ -21,6 +22,14 @@
     .fa-heart-o{
         color:red
     }
+    }
+    &__fav{
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+    .fa-heart-o{
+        color:red;
+    }
     .fa-pencil{
         color:rgb(182, 181, 181)
     }
@@ -30,6 +39,7 @@
    }
    &__heading{
     color:  $color-primary;
+    font-size: 1.9rem;
     margin-bottom: 0.1rem;
    }
    &__image-card{
@@ -160,6 +170,19 @@
     .star-rating i {
         font-size: 1.4rem;
         color: #ffdc12;
+    }
+    &__data{
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+    &__info-data{
+        display: flex;
+    }
+    &__menu-data{
+        margin-left: 1.6rem;
+    }
+    .margin-right{
+        margin-right: 0.5rem;
     }
 }
 
