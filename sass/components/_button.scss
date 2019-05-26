@@ -1,6 +1,4 @@
 .btn {
-  // width: 13rem;
-  // padding: 1.1rem;
   font-size: 1.6rem;
   color: $white;
   &--rounded {
@@ -22,6 +20,7 @@
     width: 10rem;
     padding: 0.5rem 0;
   }
+  
   &--secondary {
     background-color: $color-secondary;
   }

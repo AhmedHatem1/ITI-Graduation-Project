@@ -41,11 +41,17 @@
 .input-search {
   width: 35rem !important;
   border-radius: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2rem;
 }
+
+// .input-search::placeholder {
+//   font-size: 1.2rem;
+// }
+
 .btn-search {
   font-size: 2.4rem;
+  padding: 1rem;
   &:hover {
     background-color: $color-primary;
     border-color: $color-primary;

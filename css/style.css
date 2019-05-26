@@ -704,11 +704,12 @@ a:hover {
 .input-search {
   width: 35rem !important;
   border-radius: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2rem; }
 
 .btn-search {
-  font-size: 2.4rem; }
+  font-size: 2.4rem;
+  padding: 1rem; }
   .btn-search:hover {
     background-color: #FFC107;
     border-color: #FFC107; }
