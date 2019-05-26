@@ -1,0 +1,23 @@
+.features {
+  &__item {
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  h3 {
+    color: #363030;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+  &__item__icon {
+    margin-top: -5px;
+    color: $color_primary;
+  }
+  &__item__icon i {
+    margin-right: 20px;
+    font-size: 5rem;
+  }
+  &__item__description {
+    line-height: 3rem;
+  }
+}
