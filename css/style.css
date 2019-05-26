@@ -90,7 +90,7 @@ a:hover {
   padding: 0.4rem 1rem;
   font-size: 1.8rem;
   line-height: 1.5;
-  transition: all ease-in-out .5s;
+  transition: all ease-in-out 0.5s;
   cursor: pointer;
   border-radius: 0.5rem; }
   .button--black {
@@ -118,6 +118,21 @@ a:hover {
     width: 11.757rem;
     border-radius: 2.5rem;
     padding: 0.4rem; }
+  .button-filterNav {
+    background-color: transparent;
+    color: #FFC107; }
+    .button-filterNav:hover {
+      color: #979797; }
+  .button-homeSearch {
+    letter-spacing: 0.15rem;
+    padding: .5rem;
+    color: #FFC107;
+    border: 0.2rem solid #FFC107;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+    .button-homeSearch:hover {
+      color: white;
+      background-color: #FFC107; }
 
 .menu-border {
   border: 0.11rem solid #FFC107;
@@ -126,7 +141,8 @@ a:hover {
 .menu-card__item {
   background-color: #F2F2F2;
   padding: 2rem;
-  position: relative; }
+  position: relative;
+  border-radius: 1.5rem; }
 
 .menu-card__edit-delete-fav {
   position: absolute;
@@ -535,9 +551,10 @@ a:hover {
 
 /*end testimonials*/
 .filter-search {
-  padding: 1.2rem;
+  padding: 1.93rem !important;
   border-radius: 25px;
-  width: 27rem !important; }
+  width: 27rem !important;
+  font-size: 1.5rem; }
 
 .btn-outline-success {
   color: #FFC107;
