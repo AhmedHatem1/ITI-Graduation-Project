@@ -134,11 +134,14 @@ a:hover {
       color: white;
       background-color: #FFC107; }
 
+.menu-border {
+  border: 0.11rem solid #FFC107;
+  padding: 0; }
+
 .menu-card__item {
   background-color: #F2F2F2;
   padding: 2rem;
-  position: relative;
-  border-radius: 1.5rem; }
+  position: relative; }
 
 .menu-card__edit-delete-fav {
   position: absolute;
@@ -172,11 +175,20 @@ a:hover {
   font-size: 1.9rem;
   margin-bottom: 0.1rem; }
 
+.menu-card__heading--black {
+  color: #000;
+  font-size: 2.4rem;
+  margin-bottom: 0.1rem; }
+
 .menu-card__image-card {
   margin: 0 auto 1rem;
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   position: relative; }
+
+.menu-card__calender-time {
+  font-size: 1.7rem;
+  margin: 1.5rem; }
 
 .menu-card__size {
   display: flex;
@@ -235,6 +247,13 @@ a:hover {
   width: 100%;
   height: 0.1rem;
   background-color: #d8d5d5;
+  display: inline-block;
+  margin: 2rem 0 1rem; }
+
+.menu-card__border-primary {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #FFC107;
   display: inline-block;
   margin: 2rem 0 1rem; }
 
@@ -307,6 +326,35 @@ a:hover {
 
 .menu-card .margin-right {
   margin-right: 0.5rem; }
+
+.menu-card__edit-delete {
+  position: absolute;
+  right: 1rem;
+  bottom: 2.5rem; }
+  .menu-card__edit-delete i {
+    font-size: 2rem;
+    margin-left: 0.5rem; }
+
+.menu-card .border--primary {
+  border: 0.2rem solid #FFC107;
+  border-radius: 50%; }
+
+.menu-card__item-add {
+  height: 26.2rem;
+  padding-top: 50%; }
+  .menu-card__item-add p {
+    font-size: 1.8rem; }
+
+.menu-card i {
+  cursor: pointer; }
+
+.menu-card__calender-time-date {
+  display: flex; }
+  .menu-card__calender-time-date p, .menu-card__calender-time-date span {
+    font-size: 1.8rem;
+    margin-bottom: 1rem; }
+  .menu-card__calender-time-date i {
+    margin-right: 3rem; }
 
 .big-cart {
   height: 700 px !important;
