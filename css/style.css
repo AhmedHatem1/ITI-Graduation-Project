@@ -97,11 +97,18 @@ a:hover {
     background-color: #333; }
     .button--black:hover {
       color: #FFC107; }
+  .button--white {
+    color: #000;
+    border: .2rem solid #DDD; }
   .button--block-btn {
     margin: 0 auto;
     display: block; }
   .button--small-btn {
     font-size: 1.3rem; }
+  .button--small-btn1 {
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    border-radius: 0; }
   .button--secondary {
     background-color: #FB5858; }
     .button--secondary:hover {
@@ -138,10 +145,27 @@ a:hover {
   border: 0.11rem solid #FFC107;
   padding: 0; }
 
+.border--primary {
+  border: 0.2rem solid #FFC107;
+  border-radius: 50%; }
+
+.margin--top {
+  margin-top: 4rem; }
+
 .menu-card__item {
   background-color: #F2F2F2;
   padding: 2rem;
   position: relative; }
+
+.menu-card__header {
+  position: relative;
+  left: 25%; }
+  .menu-card__header p, .menu-card__header div {
+    display: inline-block;
+    margin-bottom: 4rem; }
+  .menu-card__header p {
+    font-size: 3rem;
+    margin-left: 1rem; }
 
 .menu-card__edit-delete-fav {
   position: absolute;
@@ -334,10 +358,6 @@ a:hover {
   .menu-card__edit-delete i {
     font-size: 2rem;
     margin-left: 0.5rem; }
-
-.menu-card .border--primary {
-  border: 0.2rem solid #FFC107;
-  border-radius: 50%; }
 
 .menu-card__item-add {
   height: 26.2rem;
@@ -569,6 +589,7 @@ a:hover {
   margin-bottom: 15px;
   padding-left: 30px;
   cursor: pointer;
+  height: calc(4.25rem + 2px);
   color: #505050;
   transition: 0.4s; }
 
@@ -576,6 +597,24 @@ a:hover {
   position: absolute;
   z-index: -1;
   opacity: 0; }
+
+.form-control--inputs {
+  height: calc(4.25rem + 2px);
+  font-size: 1.5rem; }
+
+.form-control--size {
+  font-size: 1.5rem; }
+
+.form-control--inputs-txtarea {
+  height: calc(6.25rem + 2px) !important; }
+
+.label--size {
+  max-width: 9rem !important;
+  width: 9rem !important;
+  font-size: 1.2rem; }
+
+.form-control.is-invalid ~ .invalid-feedback {
+  font-size: 1.5rem; }
 
 .control__indicator {
   position: absolute;

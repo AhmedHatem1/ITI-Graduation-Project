@@ -2,12 +2,32 @@
     border: 0.11rem solid $color-primary;
     padding: 0
 }
+.border--primary{
+    border: .2rem solid $color-primary;
+    border-radius: 50%;
+}
+.margin--top{
+    margin-top: 4rem;
+   }
 .menu-card{
    &__item{
     background-color: $color-gray-background4;
     padding: 2rem;
     position: relative;
    
+   }
+   &__header{
+    position: relative;
+    left: 25%;
+    
+    p,div{
+        display: inline-block;
+        margin-bottom: 4rem;
+    }
+    p{
+        font-size: 3rem;
+        margin-left: 1rem;
+    }
    }
    &__edit-delete-fav{
     position: absolute;
@@ -214,10 +234,7 @@
         }
         
     }
-    .border--primary{
-        border: .2rem solid $color-primary;
-        border-radius: 50%;
-    }
+    
     &__item-add{
         height:26.2rem;
        padding-top: 50%;
