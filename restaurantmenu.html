@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hungry</title>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--start Navbar -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-sm-4 nopadding">
+                <div class="navigation__secondary d-flex justify-content-end">
+                    <div class="login">
+                        <a href="#">Login</a>|
+                        <a href="#">Register</a>
+                    </div>
+                </div>
+                <!--to be transparent navbar-light-->
+                <div class="navigation__basic navbar navbar-dark">
+                    <div class="nav-line container d-flex align-items-start">
+                        <a href="#" class="navbar-brand">Hungry</a>
+                        <div class="nav-content">
+                            <ul class="d-flex flex-direction-row justify-content-between">
+                                <li>
+                                    <a href="#" class="active">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Resturants</a>
+                                </li>
+                                <li>
+                                    <a href="#">Offers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-extras">
+                            <ul class="nav d-flex flex-direction-row justify-content-between align-items-start">
+                                <li class="nav-item">
+                                    <button class="button button--transparent button--border button--small-btn nav-btn">
+                                        Group Ordering
+                                    </button>
+                                </li>
+                                <li class="nav-item dropdown ">
+                                    <a id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-shopping-cart cart-icon"></i>
+                                    </a>
+                                    <span class="cart-icon__orders">5</span>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <!--start order-bill-->
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">
+                                        <i class="fa fa-user-circle"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-v setting_icon"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">
+                                            Profile
+                                        </button>
+                                        <button class="dropdown-item" type="button">
+                                            My Orders
+                                        </button>
+                                        <button class="dropdown-item" type="button">
+                                            My Groups
+                                        </button>
+                                        <button class="dropdown-item" type="button">
+                                            Settings
+                                        </button>
+                                        <button class="dropdown-item" type="button">
+                                            Log Out
+                                        </button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end Navbar -->
+    <!--start menu card-->
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="sidebar margin--top menu-border text-center">
+                    <div class="sidebar__avatar mx-auto my-3">
+                        <img src="http://placehold.it/100/100" alt="Avatar" class="img-fluid rounded-circle" />
+                    </div>
+                    <h2 class="username">Ahmed Hatem</h2>
+
+                    <div class="alert alert-primary link__info">
+                        <button class="btn link__copy ml-1">Copy Link</button>
+                        <span class="group__link">http://placehold.it/100/100</span>
+                    </div>
+                    <ul>
+                        <li class="my-5">
+                            <div class=" sidebar__links">
+                                <i class="fa fa-users"></i>
+                                <span>My Groups</span>
+                                <i class="fa fa-caret-down"></i>
+                            </div>
+
+                            <ul>
+                                <li class="p-2">
+                                    <input type="text" placeholder="Search group .. " class="form-control p-4">
+                                </li>
+                                <li class="p-1 mb-1">
+                                    <a href="">ITI UI group</a>
+                                </li>
+                                <hr>
+
+                                <li class="p-1 mb-1 ">
+                                    <a href="">ITI UI group</a>
+                                </li>
+                                <hr>
+
+                                <li class="p-1 mb-1 ">
+                                    <a href="">ITI UI group</a>
+                                </li>
+                                <hr>
+
+                                <li class="p-1 mb-1 ">
+                                    <a href="">ITI UI group</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li class="my-1  sidebar__links">
+                            <i class="fa fa-heart"></i>
+                            <span>Favourite</span>
+                            <i class="fa fa-caret-down"></i>
+
+                        </li>
+
+                        <li class="my-5  sidebar__links">
+                            <i class="fa fa-history"></i>
+                            <span>History</span>
+                            <i class="fa fa-caret-down"></i>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="menu-card margin--top">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="menu-card__header">
+                                <div class="menu-card__image-card border--primary">
+                                    <img class="menu-card__image" src="images/services/logo.jpg" />
+                                </div>
+                                <p>UI Isamilia Track</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="menu-card__item  menu-border">
+                                <div class="menu-card__info">
+                                    <div class="menu-card__image-card border--primary">
+                                        <img class="menu-card__image" src="images/services/logo.jpg" />
+                                    </div>
+                                    <h3 class="menu-card__heading--black text-center">KFC</h3>
+                                    <div class="menu-card__fav">
+                                        <i class="fa fa-shopping-cart fa-lg"></i>
+                                    </div>
+                                    <span class="menu-card__border-primary"></span>
+                                </div>
+                                <div class="menu-card__calender fa-2x text-center">
+                                    <i class="fa fa-calendar"></i>
+                                    <p class="menu-card__calender-time">Set Order Time</p>
+                                </div>
+                                <div class="menu-card__edit-delete">
+                                    <i class="fa fa-edit"></i>
+                                    <i class="fa fa-trash"></i>
+                                    <i class="fa fa-sign-out"></i>
+                                </div>
+                                <button class="button button--secondary button--small-btn ">
+                                    <i class="fa fa-spoon margin-right"></i>View Menu</button>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="menu-card__item  menu-border">
+                                <div class="menu-card__info">
+                                    <div class="menu-card__image-card border--primary">
+                                        <img class="menu-card__image" src="images/services/logo.jpg" />
+                                    </div>
+                                    <h3 class="menu-card__heading--black text-center">McDonalds</h3>
+                                    <div class="menu-card__fav">
+                                        <i class="fa fa-shopping-cart fa-lg"></i>
+                                    </div>
+                                    <span class="menu-card__border-primary"></span>
+                                </div>
+                                <div class="menu-card__calender-time-date fa-2x">
+                                    <i class="fa fa-calendar"></i>
+
+                                    <span>Monday
+                                        <p>23/4/2019</p>
+                                        <p>04:00AM</p>
+                                    </span>
+
+                                </div>
+                                <div class="menu-card__edit-delete">
+                                    <i class="fa fa-edit"></i>
+                                    <i class="fa fa-trash"></i>
+                                    <i class="fa fa-sign-out"></i>
+                                </div>
+                                <button class="button button--secondary button--small-btn ">
+                                    <i class="fa fa-spoon margin-right"></i>View Menu</button>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="menu-card__item  menu-border">
+                                <div class="menu-card__item-add text-center">
+                                    <p>Add Restaurant</p>
+                                    <i class="fa fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end menu card-->
+</body>
+
+</html>

@@ -138,10 +138,27 @@ a:hover {
   border: 0.11rem solid #FFC107;
   padding: 0; }
 
+.border--primary {
+  border: 0.2rem solid #FFC107;
+  border-radius: 50%; }
+
+.margin--top {
+  margin-top: 4rem; }
+
 .menu-card__item {
   background-color: #F2F2F2;
   padding: 2rem;
   position: relative; }
+
+.menu-card__header {
+  position: relative;
+  left: 25%; }
+  .menu-card__header p, .menu-card__header div {
+    display: inline-block;
+    margin-bottom: 4rem; }
+  .menu-card__header p {
+    font-size: 3rem;
+    margin-left: 1rem; }
 
 .menu-card__edit-delete-fav {
   position: absolute;
@@ -334,10 +351,6 @@ a:hover {
   .menu-card__edit-delete i {
     font-size: 2rem;
     margin-left: 0.5rem; }
-
-.menu-card .border--primary {
-  border: 0.2rem solid #FFC107;
-  border-radius: 50%; }
 
 .menu-card__item-add {
   height: 26.2rem;
