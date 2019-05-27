@@ -13,8 +13,8 @@
 
 <body>
     <!-- Create Group -->
-    <div class="container form-container form-separator">
-        <h3 class="head-title col">Create Group</h3>
+    <div class="container form-container form--height form-separator">
+        <h3 class="head-title col text-center">Create Group</h3>
         <hr>
         <div class="row d-flex">
             <!-- form -->
@@ -30,11 +30,11 @@
                         <!-- Name -->
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="group-title">Group Title</span>
+                                <span class="input-group-text label label--size" id="group-title">Group Title</span>
                             </div>
 
-                            <input class="form-control is-valid" type="text" placeholder="Group's Title"
-                                aria-label="Recipient's " aria-describedby="my-addon">
+                            <input class="form-control form-control--inputs is-valid" type="text" placeholder="Group's Title" aria-label="Recipient's "
+                                aria-describedby="my-addon">
 
                             <div class="invalid-feedback">
                                 error message!
@@ -46,10 +46,10 @@
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="group-city">City</span>
+                                <span class="input-group-text label label--size" id="group-city">City</span>
                             </div>
-                            <input class="form-control is-invalid" type="text" placeholder="Group's City"
-                                aria-label="Group's City" aria-describedby="City">
+                            <input class="form-control form-control--inputs is-invalid" type="text" placeholder="Group's City" aria-label="Group's City"
+                                aria-describedby="City">
                             <div class="invalid-feedback">
                                 invalid city!
                             </div>
@@ -60,12 +60,11 @@
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="group-region">Region</span>
+                                <span class="input-group-text label label--size" id="group-region">Region</span>
                             </div>
 
 
-                            <input type="text" placeholder="Group's Region" class="form-control"
-                                aria-label="Text input with dropdown button">
+                            <input type="text" placeholder="Group's Region" class="form-control form-control--inputs" aria-label="Text input with dropdown button">
 
                             <!-- add class show for menu show -->
                             <div class="dropdown-menu">
@@ -81,15 +80,16 @@
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="group-description">Description</span>
+                                <span class="input-group-text label label--size" id="group-description">Description</span>
                             </div>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                            <textarea class="form-control form-control--inputs form-control--inputs-txtarea" aria-label="With textarea"></textarea>
                         </div>
 
                         <div class="form-separator"></div>
                         <div class="ml-auto mr-auto">
-                            <input type="submit" value="Add" class="btn btn-primary" />
-                            <a href="#" class="btn btn-success">Back</a>
+                            <button type="submit" class="button button--black">Save</button>
+                            <button type="submit" class="button button--secondary">Cancel</button>
+
                         </div>
 
                     </div>
@@ -98,10 +98,10 @@
             <!-- image upload -->
             <div class="order-sm-1 order-0 col-md-4 mt-auto mb-auto ml-auto ">
                 <div class="add-group img ml-auto mr-auto">
-                    <img src="./assets/14762094.jpg" alt="">
+                    <img src="images/services/order.jpg" alt="">
                 </div>
                 <div class="d-flex justify-content-center form-separator ">
-                    <input type="file" href="#" class="btn btn-primary" value="Upload">
+                    <input type="file" href="#" class="button form-control--inputs button--white" value="Upload">
                 </div>
             </div>
         </div>
@@ -109,7 +109,7 @@
 
     <!-- Create Resturant -->
     <div class="container form-container form-separator">
-        <h3 class="head-title col">Create Resturant</h3>
+        <h3 class="head-title col text-center">Create Resturant</h3>
         <hr>
         <div class="row d-flex">
             <!-- form -->
@@ -125,20 +125,18 @@
                         <!-- Name -->
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="resturant-title">Resturant Title</span>
+                                <span class="input-group-text label label--size" id="resturant-title">Resturant Title</span>
                             </div>
-                            <input class="form-control" type="text" placeholder="resturant's Title"
-                                aria-label="Recipient's " aria-describedby="my-addon">
+                            <input class="form-control form-control--inputs" type="text" placeholder="resturant's Title" aria-label="Recipient's " aria-describedby="my-addon">
                         </div>
 
                         <!-- City -->
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="resturant-city">City</span>
+                                <span class="input-group-text label label--size" id="resturant-city">City</span>
                             </div>
-                            <input class="form-control" type="text" placeholder="Resturant's City"
-                                aria-label="Group's City" aria-describedby="City">
+                            <input class="form-control form-control--inputs" type="text" placeholder="Resturant's City" aria-label="Group's City" aria-describedby="City">
                         </div>
 
 
@@ -146,9 +144,9 @@
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="resturant-region">Payment</span>
+                                <span class="input-group-text label label--size" id="resturant-region">Payment</span>
                             </div>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <select class="form-control form-control--inputs" id="exampleFormControlSelect1">
                                 <option>Egyptian pounds</option>
                                 <option>Dollars</option>
                                 <option>Euros</option>
@@ -162,27 +160,26 @@
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="description">Description</span>
+                                <span class="input-group-text label label--size" id="description">Description</span>
                             </div>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                            <textarea class="form-control form-control--inputs form-control--inputs-txtarea" aria-label="With textarea"></textarea>
                         </div>
 
                         <!-- Tags -->
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="description">Tags</span>
+                                <span class="input-group-text label label--size" id="description">Tags</span>
                             </div>
 
                             <div class="d-flex flex-wrap">
-                                <input type="text" placeholder="Resturant's Tags" class="form-control"
-                                    aria-label="Text input with dropdown button">
+                                <input type="text" placeholder="Resturant's Tags" class="form-control form-control--inputs" aria-label="Text input with dropdown button">
                                 <div class="dropdown-menu tag-dropdown">
                                     <a class="dropdown-item" href="#">Tag1</a>
                                     <a class="dropdown-item" href="#">Tag2</a>
                                     <a class="dropdown-item" href="#">Tag3</a>
                                 </div>
-                                <textarea disabled class="form-control" aria-label="With textarea">
+                                <textarea disabled class="form-control form-control--inputs form-control--inputs-txtarea" aria-label="With textarea">
                                 </textarea>
                             </div>
                             <!-- add class show for menu show -->
@@ -195,8 +192,8 @@
                         <!-- confirm -->
                         <div class="form-separator"></div>
                         <div class="ml-auto mr-auto">
-                            <input type="submit" value="Add" class="btn btn-primary" />
-                            <a href="#" class="btn btn-success">Back</a>
+                            <button type="submit" class="button button--black">Save</button>
+                            <button type="submit" class="button button--secondary">Cancel</button>
                         </div>
 
 
@@ -210,7 +207,7 @@
                     <img src="./assets/14762094.jpg" alt="">
                 </div>
                 <div class="d-flex justify-content-center form-separator ">
-                    <input type="file" href="#" class="btn btn-primary" value="Upload" />
+                    <input type="file" href="#" class="button button--white" value="Upload" />
                 </div>
             </div>
         </div>
@@ -218,7 +215,7 @@
 
     <!-- Add food to Menu -->
     <div class="container form-container form-separator">
-        <h3 class="head-title col">Add food to Menu</h3>
+        <h3 class="head-title col text-center">Add food to Menu</h3>
         <hr>
         <div class="row d-flex">
             <!-- form -->
@@ -234,10 +231,9 @@
                         <!-- Name -->
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="food-title">Food Name</span>
+                                <span class="input-group-text label label--size" id="food-title">Food Name</span>
                             </div>
-                            <input class="form-control col" type="text" placeholder="Food Name"
-                                aria-label="Recipient's " aria-describedby="my-addon">
+                            <input class="form-control col form-control--inputs" type="text" placeholder="Food Name" aria-label="Recipient's " aria-describedby="my-addon">
 
                         </div>
 
@@ -245,9 +241,9 @@
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="food-category">Category</span>
+                                <span class="input-group-text label label--size" id="food-category">Category</span>
                             </div>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <select class="form-control form-control--inputs" id="exampleFormControlSelect1">
                                 <option>Egyptian pounds</option>
                                 <option>Dollars</option>
                                 <option>Euros</option>
@@ -260,44 +256,37 @@
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="food-size">Size</span>
+                                <span class="input-group-text label label--size" id="food-size">Size</span>
                             </div>
 
                             <div class="custom-control custom-checkbox ml-5">
-                                <input id="my-input-small" class="custom-control-input" type="checkbox" name=""
-                                    value="true">
-                                <label for="my-input-small" class="btn btn-success custom-control-label">Small</label>
+                                <input id="my-input-small" class="custom-control-input" type="checkbox" name="" value="true">
+                                <label for="my-input-small" class="button button--secondary button--small-btn1 custom-control-label">Small</label>
                             </div>
                             <div class="custom-control custom-checkbox mr-5 ml-5">
-                                <input id="my-input-meduim" class="custom-control-input" type="checkbox" name=""
-                                    value="true">
-                                <label for="my-input-meduim" class="btn btn-success custom-control-label">Meduim</label>
+                                <input id="my-input-meduim" class="custom-control-input" type="checkbox" name="" value="true">
+                                <label for="my-input-meduim" class="button button--secondary button--small-btn1 custom-control-label">Meduim</label>
                             </div>
                             <div class="custom-control custom-checkbox mr-5">
-                                <input id="my-input-large" class="custom-control-input" type="checkbox" name=""
-                                    value="true">
-                                <label for="my-input-large" class="btn btn-success custom-control-label">Large</label>
+                                <input id="my-input-large" class="custom-control-input" type="checkbox" name="" value="true">
+                                <label for="my-input-large" class="button button--secondary button--small-btn1 custom-control-label">Large</label>
                             </div>
                             <div class="custom-control custom-checkbox mr-auto">
-                                <input id="my-input-sale" class="custom-control-input" type="checkbox" name=""
-                                    value="true">
-                                <label for="my-input-sale" class="btn btn-success custom-control-label">isSale</label>
+                                <input id="my-input-sale" class="custom-control-input" type="checkbox" name="" value="true">
+                                <label for="my-input-sale" class="button button--secondary button--small-btn1 custom-control-label">isSale</label>
                             </div>
-                            <input id="my-input-sale-price" class="form-control text-center" type="text" name="" placeholder="0.0 USD">
+                            <input id="my-input-sale-price" class="form-control form-control--size text-center" type="text" name="" placeholder="0.0 USD">
                         </div>
 
                         <!-- Prices -->
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="food-size">Price</span>
+                                <span class="input-group-text label label--size" id="food-size">Price</span>
                             </div>
-                            <input class="form-control col-3 ml-auto" id="price-small" type="text" name="Small"
-                                placeholder="0.0 USD">
-                            <input class="form-control col-3 ml-5 mr-5" id="price-meduim" type="text" name="Meduim"
-                                placeholder="0.0 USD">
-                            <input class="form-control col-3 mr-auto" id="price-large" type="text" name="Large"
-                                placeholder="0.0 USD">
+                            <input class="form-control form-control--inputs col-3 ml-auto" id="price-small" type="text" name="Small" placeholder="0.0 USD">
+                            <input class="form-control form-control--inputs col-3 ml-5 mr-5" id="price-meduim" type="text" name="Meduim" placeholder="0.0 USD">
+                            <input class="form-control form-control--inputs col-3 mr-auto" id="price-large" type="text" name="Large" placeholder="0.0 USD">
                         </div>
 
                         <!-- Description -->
@@ -306,25 +295,24 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text label" id="description">Description</span>
                             </div>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                            <textarea class="form-control form-control--inputs form-control--inputs-txtarea" aria-label="With textarea"></textarea>
                         </div>
 
                         <!-- Tags -->
                         <div class="form-separator"></div>
                         <div class="input-group col">
                             <div class="input-group-prepend">
-                                <span class="input-group-text label" id="description">Tags</span>
+                                <span class="input-group-text label label--size" id="description">Tags</span>
                             </div>
 
                             <div class="d-flex flex-wrap">
-                                <input type="text" placeholder="Food's Tags" class="form-control"
-                                    aria-label="Text input with dropdown button">
+                                <input type="text" placeholder="Food's Tags" class="form-control form-control--inputs" aria-label="Text input with dropdown button">
                                 <div class="dropdown-menu tag-dropdown">
                                     <a class="dropdown-item" href="#">Tag1</a>
                                     <a class="dropdown-item" href="#">Tag2</a>
                                     <a class="dropdown-item" href="#">Tag3</a>
                                 </div>
-                                <textarea disabled class="form-control" aria-label="With textarea">
+                                <textarea disabled class="form-control form-control--inputs form-control--inputs-txtarea" aria-label="With textarea">
                                 </textarea>
                             </div>
                             <!-- add class show for menu show -->
@@ -337,8 +325,8 @@
                         <!-- confirm -->
                         <div class="form-separator"></div>
                         <div class="ml-auto mr-auto">
-                            <input type="submit" value="Add" class="btn btn-primary" />
-                            <a href="#" class="btn btn-success">Back</a>
+                            <button type="submit" class="button button--black">Save</button>
+                            <button type="submit" class="button button--secondary">Cancel</button>
                         </div>
 
 
@@ -352,7 +340,7 @@
                     <img src="./assets/14762094.jpg" alt="">
                 </div>
                 <div class="d-flex justify-content-center form-separator ">
-                    <input type="file" href="#" class="btn btn-primary" value="Upload" />
+                    <input type="file" href="#" class="button button--white" value="Upload" />
                 </div>
             </div>
         </div>

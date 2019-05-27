@@ -97,11 +97,18 @@ a:hover {
     background-color: #333; }
     .button--black:hover {
       color: #FFC107; }
+  .button--white {
+    color: #000;
+    border: .2rem solid #DDD; }
   .button--block-btn {
     margin: 0 auto;
     display: block; }
   .button--small-btn {
     font-size: 1.3rem; }
+  .button--small-btn1 {
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    border-radius: 0; }
   .button--secondary {
     background-color: #FB5858; }
     .button--secondary:hover {
@@ -582,6 +589,7 @@ a:hover {
   margin-bottom: 15px;
   padding-left: 30px;
   cursor: pointer;
+  height: calc(4.25rem + 2px);
   color: #505050;
   transition: 0.4s; }
 
@@ -589,6 +597,24 @@ a:hover {
   position: absolute;
   z-index: -1;
   opacity: 0; }
+
+.form-control--inputs {
+  height: calc(4.25rem + 2px);
+  font-size: 1.5rem; }
+
+.form-control--size {
+  font-size: 1.5rem; }
+
+.form-control--inputs-txtarea {
+  height: calc(6.25rem + 2px) !important; }
+
+.label--size {
+  max-width: 9rem !important;
+  width: 9rem !important;
+  font-size: 1.2rem; }
+
+.form-control.is-invalid ~ .invalid-feedback {
+  font-size: 1.5rem; }
 
 .control__indicator {
   position: absolute;
