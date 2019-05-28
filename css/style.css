@@ -90,9 +90,8 @@ a:hover {
   padding: 0.4rem 1rem;
   font-size: 1.8rem;
   line-height: 1.5;
-  transition: all ease-in-out .5s;
-  cursor: pointer;
-  border-radius: 0.5rem; }
+  transition: all ease-in-out 0.5s;
+  cursor: pointer; }
   .button--black {
     background-color: #333; }
     .button--black:hover {
@@ -111,7 +110,7 @@ a:hover {
     .button--primary:hover {
       color: #000; }
   .button--border {
-    border: 0.5rem solid #FFC107; }
+    border: 30px solid #FFC107; }
   .button--transparent {
     background-color: transparent;
     color: white;
@@ -170,7 +169,7 @@ a:hover {
   user-select: none;
   display: inline-block;
   position: relative; }
-  .menu-card__option-size input[type=radio] {
+  .menu-card__option-size input[type="radio"] {
     display: none; }
   .menu-card__option-size:hover .menu-card__option {
     background-color: #FFC107; }
@@ -195,7 +194,7 @@ a:hover {
   margin-top: 2rem; }
 
 .menu-card__price-before {
-  opacity: .4; }
+  opacity: 0.4; }
 
 .menu-card__dashed {
   width: 5rem;
@@ -283,7 +282,8 @@ a:hover {
   margin-top: 5rem !important;
   line-height: 5rem !important; }
   .big-cart-now {
-    color: #FFC107; }
+    color: #FFC107;
+    font-size: 4rem; }
 
 .big-cart-img {
   height: 100%; }
@@ -325,14 +325,16 @@ a:hover {
   color: #FFC107;
   padding-top: 3rem;
   font-family: "Roboto";
-  font-size: 2.4rem; }
+  font-size: 2.4rem;
+  letter-spacing: 1px; }
 
 .cart-descryption {
+  line-height: 20px;
   width: 80%;
   text-align: center;
   margin: auto;
   font-weight: 500;
-  color: white; }
+  color: #F9F9F9; }
 
 .cart-number {
   background-color: #ea4335;
@@ -344,7 +346,8 @@ a:hover {
   border-radius: 50%;
   text-align: center;
   color: white;
-  justify-items: center; }
+  justify-items: center;
+  line-height: 4rem; }
 
 /*start testimonials*/
 .testimonials {
