@@ -4,3 +4,12 @@
   margin-top: 1.5rem;
   color: rgba(51, 51, 51, 0.5);
 }
+
+.product-details{
+  &__image{
+    border-radius: 2rem;
+    width: 60rem ;
+    height: 40rem;
+    margin : 2rem 0 2rem 0;
+  }
+}

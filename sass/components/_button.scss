@@ -63,4 +63,18 @@
       background-color: $color-primary;
     }
   }
+  &-createGroup {
+    background-color: transparent;
+    color: $black;
+    border-radius: 4rem;
+    padding: 0.7rem;
+    font-size: 2rem;
+    // font-weight: bold;
+    width: 25.5rem;
+    margin-top: 7rem;
+    &:hover {
+      background-color: $color-primary;
+      color: $white;
+    }
+  }
 }
