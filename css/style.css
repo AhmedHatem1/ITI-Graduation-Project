@@ -117,7 +117,7 @@ a:hover {
     .button--primary:hover {
       color: #000; }
   .button--border {
-    border: 30px solid #FFC107; }
+    border: 3px solid #FFC107; }
   .button--border--sm {
     border: 3px solid #FFC107; }
   .button--transparent {
@@ -141,6 +141,17 @@ a:hover {
     .button-homeSearch:hover {
       color: white;
       background-color: #FFC107; }
+  .button-createGroup {
+    background-color: transparent;
+    color: #000;
+    border-radius: 4rem;
+    padding: 0.7rem;
+    font-size: 2rem;
+    width: 25.5rem;
+    margin-top: 7rem; }
+    .button-createGroup:hover {
+      background-color: #FFC107;
+      color: white; }
 
 .menu-border {
   border: 0.11rem solid #FFC107;
@@ -450,7 +461,8 @@ a:hover {
   border-radius: 50%;
   text-align: center;
   color: white;
-  justify-items: center; }
+  justify-items: center;
+  line-height: 4rem; }
 
 /*start testimonials*/
 .testimonials {
@@ -1118,6 +1130,12 @@ a:hover {
     font-size: 2rem;
     padding: 0.7rem;
     background-color: #FFC107; }
+
+.product-details__image {
+  border-radius: 2rem;
+  width: 60rem;
+  height: 40rem;
+  margin: 2rem 0 2rem 0; }
 
 .sidebar {
   background-color: #F9F9F9;
