@@ -1105,6 +1105,9 @@ a:hover {
       .navigation__basic .nav-extras .nav-item .setting_icon {
         cursor: pointer; }
 
+.nav-fixed {
+  z-index: 999; }
+
 .listing-header {
   font-size: 3.5rem;
   font-weight: bold;
