@@ -7,16 +7,15 @@
   line-height: 1.5;
   transition: all ease-in-out 0.5s;
   cursor: pointer;
-  border-radius: 0.5rem;
   &--black {
     background-color: #333;
     &:hover {
       color: $color-primary;
     }
   }
-  &--white{
-    color:$black;
-    border:.2rem solid #DDD
+  &--white {
+    color: $black;
+    border: 0.2rem solid #ddd;
   }
   &--block-btn {
     margin: 0 auto;
@@ -25,10 +24,10 @@
   &--small-btn {
     font-size: 1.3rem;
   }
-  &--small-btn1{
+  &--small-btn1 {
     font-size: 1.1rem;
     padding: 0.3rem;
-    border-radius: 0
+    border-radius: 0;
   }
   &--secondary {
     background-color: $color-secondary;
@@ -43,7 +42,10 @@
     }
   }
   &--border {
-    border: 0.5rem solid $color-primary;
+    border: 3px solid $color-primary;
+  }
+  &--border--sm {
+    border: 3px solid $color-primary;
   }
   &--transparent {
     background-color: transparent;
@@ -70,6 +72,20 @@
     &:hover {
       color: $white;
       background-color: $color-primary;
+    }
+  }
+  &-createGroup {
+    background-color: transparent;
+    color: $black;
+    border-radius: 4rem;
+    padding: 0.7rem;
+    font-size: 2rem;
+    // font-weight: bold;
+    width: 25.5rem;
+    margin-top: 7rem;
+    &:hover {
+      background-color: $color-primary;
+      color: $white;
     }
   }
 }
