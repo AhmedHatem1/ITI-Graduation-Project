@@ -6,6 +6,7 @@
   margin-bottom: 15px;
   padding-left: 30px;
   cursor: pointer;
+  height: calc(4.25rem + 2px);
   color: $color-gray-background2;
   @include transition(0.4s);
 }
@@ -15,7 +16,24 @@
   z-index: -1;
   opacity: 0;
 }
-
+.form-control--inputs{
+  height: calc(4.25rem + 2px);
+  font-size: 1.5rem;
+}
+.form-control--size{
+  font-size: 1.5rem;
+}
+.form-control--inputs-txtarea{
+  height: calc(6.25rem + 2px) !important;
+}
+.label--size{
+  max-width: 9rem !important;
+  width: 9rem !important;
+  font-size: 1.2rem;
+}
+.form-control.is-invalid~.invalid-feedback{
+  font-size: 1.5rem;
+}
 .control__indicator {
   position: absolute;
   top: 5px;

@@ -91,17 +91,28 @@ a:hover {
   font-size: 1.8rem;
   line-height: 1.5;
   transition: all ease-in-out 0.5s;
+<<<<<<< HEAD
+  cursor: pointer; }
+=======
   cursor: pointer;
   border-radius: 0.5rem; }
+>>>>>>> 0162a433bb105730a2be432c2531ffaaad6a6431
   .button--black {
     background-color: #333; }
     .button--black:hover {
       color: #FFC107; }
+  .button--white {
+    color: #000;
+    border: .2rem solid #DDD; }
   .button--block-btn {
     margin: 0 auto;
     display: block; }
   .button--small-btn {
     font-size: 1.3rem; }
+  .button--small-btn1 {
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    border-radius: 0; }
   .button--secondary {
     background-color: #FB5858; }
     .button--secondary:hover {
@@ -111,7 +122,7 @@ a:hover {
     .button--primary:hover {
       color: #000; }
   .button--border {
-    border: 0.5rem solid #FFC107; }
+    border: 30px solid #FFC107; }
   .button--transparent {
     background-color: transparent;
     color: white;
@@ -149,10 +160,27 @@ a:hover {
   border: 0.11rem solid #FFC107;
   padding: 0; }
 
+.border--primary {
+  border: 0.2rem solid #FFC107;
+  border-radius: 50%; }
+
+.margin--top {
+  margin-top: 4rem; }
+
 .menu-card__item {
   background-color: #F2F2F2;
   padding: 2rem;
   position: relative; }
+
+.menu-card__header {
+  position: relative;
+  left: 25%; }
+  .menu-card__header p, .menu-card__header div {
+    display: inline-block;
+    margin-bottom: 4rem; }
+  .menu-card__header p {
+    font-size: 3rem;
+    margin-left: 1rem; }
 
 .menu-card__edit-delete-fav {
   position: absolute;
@@ -217,7 +245,7 @@ a:hover {
   user-select: none;
   display: inline-block;
   position: relative; }
-  .menu-card__option-size input[type=radio] {
+  .menu-card__option-size input[type="radio"] {
     display: none; }
   .menu-card__option-size:hover .menu-card__option {
     background-color: #FFC107; }
@@ -242,7 +270,7 @@ a:hover {
   margin-top: 2rem; }
 
 .menu-card__price-before {
-  opacity: .4; }
+  opacity: 0.4; }
 
 .menu-card__dashed {
   width: 5rem;
@@ -346,10 +374,6 @@ a:hover {
     font-size: 2rem;
     margin-left: 0.5rem; }
 
-.menu-card .border--primary {
-  border: 0.2rem solid #FFC107;
-  border-radius: 50%; }
-
 .menu-card__item-add {
   height: 26.2rem;
   padding-top: 50%; }
@@ -379,7 +403,8 @@ a:hover {
   margin-top: 5rem !important;
   line-height: 5rem !important; }
   .big-cart-now {
-    color: #FFC107; }
+    color: #FFC107;
+    font-size: 4rem; }
 
 .big-cart-img {
   height: 100%; }
@@ -421,14 +446,16 @@ a:hover {
   color: #FFC107;
   padding-top: 3rem;
   font-family: "Roboto";
-  font-size: 2.4rem; }
+  font-size: 2.4rem;
+  letter-spacing: 1px; }
 
 .cart-descryption {
+  line-height: 20px;
   width: 80%;
   text-align: center;
   margin: auto;
   font-weight: 500;
-  color: white; }
+  color: #F9F9F9; }
 
 .cart-number {
   background-color: #ea4335;
@@ -440,7 +467,8 @@ a:hover {
   border-radius: 50%;
   text-align: center;
   color: white;
-  justify-items: center; }
+  justify-items: center;
+  line-height: 4rem; }
 
 /*start testimonials*/
 .testimonials {
@@ -580,6 +608,7 @@ a:hover {
   margin-bottom: 15px;
   padding-left: 30px;
   cursor: pointer;
+  height: calc(4.25rem + 2px);
   color: #505050;
   transition: 0.4s; }
 
@@ -587,6 +616,24 @@ a:hover {
   position: absolute;
   z-index: -1;
   opacity: 0; }
+
+.form-control--inputs {
+  height: calc(4.25rem + 2px);
+  font-size: 1.5rem; }
+
+.form-control--size {
+  font-size: 1.5rem; }
+
+.form-control--inputs-txtarea {
+  height: calc(6.25rem + 2px) !important; }
+
+.label--size {
+  max-width: 9rem !important;
+  width: 9rem !important;
+  font-size: 1.2rem; }
+
+.form-control.is-invalid ~ .invalid-feedback {
+  font-size: 1.5rem; }
 
 .control__indicator {
   position: absolute;
@@ -1069,6 +1116,11 @@ a:hover {
   font-weight: bold;
   margin-top: 1.5rem;
   color: rgba(51, 51, 51, 0.5); }
+  .listing-header__btn {
+    float: right;
+    font-size: 2rem;
+    padding: 0.7rem;
+    background-color: #FFC107; }
 
 .product-details__image {
   border-radius: 2rem;
