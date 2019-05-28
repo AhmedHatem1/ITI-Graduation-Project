@@ -91,19 +91,14 @@ a:hover {
   font-size: 1.8rem;
   line-height: 1.5;
   transition: all ease-in-out 0.5s;
-<<<<<<< HEAD
   cursor: pointer; }
-=======
-  cursor: pointer;
-  border-radius: 0.5rem; }
->>>>>>> 0162a433bb105730a2be432c2531ffaaad6a6431
   .button--black {
     background-color: #333; }
     .button--black:hover {
       color: #FFC107; }
   .button--white {
     color: #000;
-    border: .2rem solid #DDD; }
+    border: 0.2rem solid #ddd; }
   .button--block-btn {
     margin: 0 auto;
     display: block; }
@@ -123,6 +118,8 @@ a:hover {
       color: #000; }
   .button--border {
     border: 30px solid #FFC107; }
+  .button--border--sm {
+    border: 3px solid #FFC107; }
   .button--transparent {
     background-color: transparent;
     color: white;
@@ -234,7 +231,7 @@ a:hover {
   user-select: none;
   display: inline-block;
   position: relative; }
-  .menu-card__option-size input[type="radio"] {
+  .menu-card__option-size input[type=radio] {
     display: none; }
   .menu-card__option-size:hover .menu-card__option {
     background-color: #FFC107; }
@@ -259,7 +256,7 @@ a:hover {
   margin-top: 2rem; }
 
 .menu-card__price-before {
-  opacity: 0.4; }
+  opacity: .4; }
 
 .menu-card__dashed {
   width: 5rem;
@@ -392,8 +389,7 @@ a:hover {
   margin-top: 5rem !important;
   line-height: 5rem !important; }
   .big-cart-now {
-    color: #FFC107;
-    font-size: 4rem; }
+    color: #FFC107; }
 
 .big-cart-img {
   height: 100%; }
@@ -435,16 +431,14 @@ a:hover {
   color: #FFC107;
   padding-top: 3rem;
   font-family: "Roboto";
-  font-size: 2.4rem;
-  letter-spacing: 1px; }
+  font-size: 2.4rem; }
 
 .cart-descryption {
-  line-height: 20px;
   width: 80%;
   text-align: center;
   margin: auto;
   font-weight: 500;
-  color: #F9F9F9; }
+  color: white; }
 
 .cart-number {
   background-color: #ea4335;
@@ -456,8 +450,7 @@ a:hover {
   border-radius: 50%;
   text-align: center;
   color: white;
-  justify-items: center;
-  line-height: 4rem; }
+  justify-items: center; }
 
 /*start testimonials*/
 .testimonials {
