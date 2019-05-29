@@ -181,7 +181,8 @@ a:hover {
 
 .menu-card__edit-delete-fav {
   position: absolute;
-  left: 0; }
+  right: 0;
+  top: 25px; }
   .menu-card__edit-delete-fav i {
     display: block;
     width: 3rem;
@@ -1098,7 +1099,7 @@ a:hover {
       width: 30%; }
       .navigation__basic .nav-extras .nav li a {
         color: white;
-        font-size: 2.5rem; }
+        font-size: 1.7rem; }
       .navigation__basic .nav-extras .nav-btn:hover {
         color: white; }
       .navigation__basic .nav-extras .nav-item .cart-icon {
