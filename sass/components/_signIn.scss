@@ -1,15 +1,16 @@
 .form-style {
+  margin-top: 5.7rem;
+  width: 534.5px;
+  height: 696px;
   &__img {
-    width: 565.5px;
-    height: 731px;
-    margin: 5px auto;
+    margin: 0 auto;
     position: relative;
   }
   &__close {
     color: red;
     font-size: 3.5rem;
     position: absolute;
-    top: 100px;
+    top: 145px;
     right: 516px;
     &:hover {
       color: red;
@@ -17,7 +18,7 @@
   }
   &__body {
     position: absolute;
-    top: 3rem;
+    top: 7rem;
     right: 60rem;
     font-family: $main-font;
     width: 21%;
