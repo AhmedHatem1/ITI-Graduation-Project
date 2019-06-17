@@ -595,6 +595,45 @@ a:hover {
   border-color: #ffc107;
   padding: 0.25rem; }
 
+.Form,
+.Form-lg {
+  width: 100%;
+  max-width: 500px;
+  padding: 3rem;
+  margin: auto;
+  background: #eee; }
+  .Form__user,
+  .Form-lg__user {
+    color: #ccc;
+    border-radius: 50%;
+    background: #e3e3e3;
+    width: 100px;
+    height: 100px;
+    line-height: 100px; }
+  .Form .form-control,
+  .Form-lg .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px; }
+  .Form .form-control:focus,
+  .Form-lg .form-control:focus {
+    z-index: 2; }
+  .Form__email,
+  .Form-lg__email {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; }
+  .Form__password,
+  .Form-lg__password {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
+
+.Form-lg {
+  max-width: 600px; }
+
 .control {
   font-size: 1.3rem;
   font-weight: 200;
