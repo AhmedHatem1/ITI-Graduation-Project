@@ -121,3 +121,25 @@
 .nav-fixed {
   z-index: 999;
 }
+.dropdown-menu1 {
+  display: block;
+  width: 120px;
+  font-size: 1.4rem;
+  left: -1rem;
+  line-height: 25px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
