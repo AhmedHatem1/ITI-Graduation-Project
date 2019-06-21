@@ -980,13 +980,13 @@ a:hover {
 
 .footer {
   background-color: #141414;
-  height: 6.7rem;
-  margin-top: 8rem; }
+  height: 5rem; }
   .footer__content {
     font-family: "Roboto";
     font-size: 2rem;
     color: #ffc107;
-    font-weight: 100; }
+    font-weight: 100;
+    margin: 0; }
 
 .form-separator {
   padding-top: 2.5rem; }
